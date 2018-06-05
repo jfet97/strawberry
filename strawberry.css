@@ -20,7 +20,7 @@
     flex-flow: row-reverse nowrap;
 }
 
-
+/*********************************************************************************************************************************/
 
 /* Flex Column */
 
@@ -44,21 +44,80 @@
     flex-flow: column-reverse nowrap;
 }
 
-
+/*********************************************************************************************************************************/
 
 /* Flex Inline */
 
-.sb-inline {
+.sb-flex-inline {
     display: inline-flex !important;
 }
 
-
+/*********************************************************************************************************************************/
 
 /* Reverse Wrap */
 
-.sb-reverse-wrap {
+.sb-flex-reverse-wrap {
     flex-wrap: wrap-reverse !important;
 }
 
+/*********************************************************************************************************************************/
+
+/* Internal-Nested Flexbox */
+/* Row */
+
+.sb-nested-flexbox-row-wrap > * {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sb-nested-flexbox-row-nowrap > * {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.sb-nested-flexbox-reverse-row-wrap > * {
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+.sb-nested-flexbox-reverse-row-nowrap > * {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+
+/* Column */
+
+.sb-nested-flexbox-column-wrap > * {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.sb-nested-flexbox-column-nowrap > * {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sb-nested-flexbox-reverse-column-wrap > * {
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+
+.sb-nested-flexbox-reverse-column-nowrap > * {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+
+/* Inline */
+
+.sb-nested-flexbox-inline > * {
+    display: inline-flex !important;
+}
+
+/* Reverse Wrap */
+
+.sb-nested-flexbox-wrap > * {
+    flex-wrap: wrap-reverse !important;
+}
+/*********************************************************************************************************************************/
 
 
