@@ -156,24 +156,104 @@
     justify-content: space-around;
 }
 
+.sb-jc-initial {
+    justify-content: initial;
+}
+
+.sb-jc-inherit {
+    justify-content: inherit;
+}
+
 /* Justify Content for Nested Flexbox Utility */
 
 .sb-nested-jc-flex-start > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
     justify-content: flex-start;
 }
 
-.sb-nested-jc-flex-end > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
+.sb-nested-jc-flex-end > a, .sb-nested-jc-flex-end > div, .sb-nested-jc-flex-end > li, .sb-nested-jc-flex-end > ul {
     justify-content: flex-end;
 }
 
-.sb-nested-jc-center > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
+.sb-nested-jc-center > a, .sb-nested-jc-center > div, .sb-nested-jc-center > li, .sb-nested-jc-center > ul {
     justify-content: center;
 }
 
-.sb-nested-jc-space-bn > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
+.sb-nested-jc-space-bn > a, .sb-nested-jc-space-bn > div, .sb-nested-jc-fspace-bn > li, .sb-nested-jc-space-bn > ul {
     justify-content: space-between;
 }
 
-.sb-nested-jc-space-ad > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
+.sb-nested-jc-space-ad > a, .sb-nested-jc-space-ad > div, .sb-nested-jc-space-ad > li, .sb-nested-jc-space-ad > ul {
     justify-content: space-around;
 }
+
+.sb-nested-jc-initial > a, .sb-nested-jc-initial > div, .sb-nested-jc-initial > li, .sb-nested-jc-initial > ul {
+    justify-content: initial;
+}
+
+.sb-nested-jc-inherit > a, .sb-nested-jc-inherit > div, .sb-nested-jc-inherit > li, .sb-nested-jc-inherit > ul {
+    justify-content: inherit;
+}
+
+/*********************************************************************************************************************************/
+
+
+/* Align Items Utility */
+
+.sb-ai-stretch {
+    align-items: stretch;
+}
+
+.sb-ai-center {
+    align-items: center;
+}
+
+.sb-ai-flex-start {
+    align-items: flex-start;
+}
+
+.sb-ai-flex-end {
+    align-items: flex-end;
+}
+
+.sb-ai-baseline {
+    align-items: baseline;
+}
+
+.sb-ai-initial {
+    align-items: initial;
+}
+
+.sb-ai-inherit {
+    align-items: inherit
+}
+
+/* Align Items for Nested Flexbox Utility */
+
+.sb-ai-stretch > a, .sb-ai-stretch > div, .sb-ai-stretch > li, .sb-ai-stretch > ul {
+    align-items: stretch;
+}
+
+.sb-ai-center > a, .sb-ai-center > div, .sb-ai-center > li, .sb-ai-center > ul {
+    align-items: center;
+}
+
+.sb-ai-flex-start > a, .sb-ai-flex-start > div, .sb-ai-flex-start > li, .sb-ai-flex-start > ul {
+    align-items: flex-start;
+}
+
+.sb-ai-flex-end > a, .sb-ai-flex-end > div, .sb-ai-flex-end > li, .sb-ai-flex-end > ul {
+    align-items: flex-end;
+}
+
+.sb-ai-baseline > a, .sb-ai-baseline > div, .sb-ai-baseline > li, .sb-ai-baseline > ul {
+    align-items: baseline;
+}
+
+.sb-ai-initial > a, .sb-ai-initial > div, .sb-ai-initial > li, .sb-ai-initial > ul {
+    align-items: initial;
+}
+
+.sb-ai-inherit > a, .sb-ai-inherit .sb-ai-inherit .sb-ai-inherit {
+    align-items: inherit
+}
+
