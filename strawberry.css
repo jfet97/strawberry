@@ -371,10 +371,15 @@
 }
 
 
+
+/*********************************************************************************************************************************/
+
+
+
 /* Flex Grow - Flex Shrink and Flex Basis Utility */ 
 
 
-/* Items width with grow = 1 */
+/* --------------------------------------- Items width with grow = 1 ----------------------------------------------*/
 .sb-each-item-is-100-percent > *, .sb-each-item-is-a-hundred-percent > * {
     flex: 1 1 100%;
 }
@@ -439,72 +444,143 @@
     flex: 1 1 10%;
 }
 
+/* ---------------------------------- Same but with Grow = 0 -------------------------------------------- */
+
+.sb-each-item-is-100-percent-no-grow > *, .sb-each-item-is-a-hundred-percent-no-grow > * {
+    flex: 0 1 100%;
+}
+
+.sb-each-item-is-90-percent-no-grow > * {
+    flex: 0 1 90%;
+}
+
+.sb-each-item-is-80-percent-no-grow > * {
+    flex: 0 1 80%;
+}
+
+.sb-each-item-is-70-percent-no-grow > * {
+    flex: 0 1 70%;
+}
+
+.sb-each-item-is-60-percent-no-grow > * {
+    flex: 0 1 60%;
+}
+
+.sb-each-item-is-50-percent-no-grow > *, .sb-each-item-a-half-percent-no-grow > * {
+    flex: 0 1 50%;
+}
+
+.sb-each-item-is-40-percent-no-grow > * {
+    flex: 0 1 40%;
+}
+
+.sb-each-item-is-one-third-percent-no-grow > * {
+    flex: 0 1 33.3333%;
+}
+
+.sb-each-item-is-30-percent-no-grow > * {
+    flex: 0 1 30%;
+}
+
+.sb-each-item-is-25-percent-no-grow > *, .sb-each-item-is-a-quarter-percent-no-grow > * {
+    flex: 0 1 25%;
+}
+
+.sb-each-item-is-20-percent-no-grow > *, .sb-each-item-is-a-fifth-percent-no-grow > * {
+    flex: 0 1 20%;
+}
+
+.sb-each-item-is-a-sixth-percent-no-grow > * {
+    flex: 0 1 16.6666%;
+}
+
+.sb-each-item-is-a-seventh-percent-no-grow > * {
+    flex: 0 1 14.2857%;
+}
+
+.sb-each-item-is-an-eighth-percent-no-grow > * {
+    flex: 0 1 12.50%;
+}
+
+.sb-each-item-is-a-ninth-percent-no-grow > * {
+    flex: 0 1 11.11%;
+}
+
+.sb-each-item-is-10-percent-no-grow > *, .sb-each-item-is-a-tenth-percent-no-grow > * {
+    flex: 0 1 10%;
+}
+
+
+
+/*********************************************************************************************************************************/
+
+
+
 /* Set Flex Basis for an item */
 
 .sb-flex-basis-is-100-percent, .sb-flex-basis-is-a-hundred-percent {
     flex-basis: 100%;
 }
 
-.sb-flex-basis-is-90-percent-no-grow {
+.sb-flex-basis-is-90-percent {
     flex-basis: 90%;
 }
 
-.sb-flex-basis-is-80-percent-no-grow {
+.sb-flex-basis-is-80-percent {
     flex-basis: 80%;
 }
 
-.sb-flex-basis-is-70-percent-no-grow {
+.sb-flex-basis-is-70-percent {
     flex-basis: 70%;
 }
 
-.sb-flex-basis-is-60-percent-no-grow {
+.sb-flex-basis-is-60-percent {
     flex-basis: 60%;
 }
 
-.sb-flex-basis-is-50-percent-no-grow, .sb-flex-basis-a-half-percent-no-grow {
+.sb-flex-basis-is-50-percent, .sb-flex-basis-a-half-percent {
     flex-basis: 50%;
 }
 
-.sb-flex-basis-is-40-percent-no-grow > {
+.sb-flex-basis-is-40-percent {
     flex-basis: 40%;
 }
 
-.sb-flex-basis-is-one-third-percent-no-grow > {
+.sb-flex-basis-is-one-third-percent {
     flex-basis: 33.3333%;
 }
 
-.sb-flex-basis-is-30-percent-no-grow > {
+.sb-flex-basis-is-30-percent {
     flex-basis: 30%;
 }
 
-.sb-flex-basis-is-25-percent-no-grow, .sb-flex-basis-is-a-quarter-percent-no-grow {
+.sb-flex-basis-is-25-percent, .sb-flex-basis-is-a-quarter-percent {
     flex-basis: 25%;
 }
 
-.sb-flex-basis-is-20-percent-no-grow, .sb-flex-basis-is-a-fifth-percent-no-grow {
+.sb-flex-basis-is-20-percent, .sb-flex-basis-is-a-fifth-percent {
     flex-basis: 20%;
 }
 
-.sb-flex-basis-is-a-sixth-percent-no-grow {
+.sb-flex-basis-is-a-sixth-percent {
     flex-basis: 16.6666%;
 }
 
-.sb-flex-basis-is-a-seventh-percent-no-grow {
+.sb-flex-basis-is-a-seventh-percent {
     flex-basis: 14.2857%;
 }
 
-.sb-flex-basis-is-an-eighth-percent-no-grow {
+.sb-flex-basis-is-an-eighth-percent {
     flex-basis: 12.50%;
 }
 
-.sb-flex-basis-is-a-ninth-percent-no-grow {
+.sb-flex-basis-is-a-ninth-percent {
     flex-basis: 11.11%;
 }
 
-.sb-flex-basis-is-10-percent-no-grow,  .sb-flex-basis-is-a-tenth-percent-no-grow {
+.sb-flex-basis-is-10-percent,  .sb-flex-basis-is-a-tenth-percent {
     flex-basis: 10%;
 }
-
 
 /* Set Flex Grow for an item*/
 
