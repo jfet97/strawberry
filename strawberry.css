@@ -59,6 +59,7 @@
 /*********************************************************************************************************************************/
 
 
+/* Flexbox container rules */
 /* Flex Row */ - /* Following rules are more important than nested one so I wrote them later */
 
 .sb-flex-row-wrap {
@@ -115,7 +116,9 @@
     flex-wrap: wrap-reverse; /* Important not necessary if this rule is inserted after the previous eight */
 }
 
+
 /*********************************************************************************************************************************/
+
 
 /* Order Utility */
 
@@ -125,4 +128,52 @@
 
 .sb-last-item {
     order: 1000000;
+}
+
+
+/*********************************************************************************************************************************/
+
+
+/* Justify Content Utility */
+
+.sb-jc-flex-start {
+    justify-content: flex-start;
+}
+
+.sb-jc-flex-end {
+    justify-content: flex-end;
+}
+
+.sb-jc-center {
+    justify-content: center;
+}
+
+.sb-jc-space-bn {
+    justify-content: space-between;
+}
+
+.sb-jc-space-ad {
+    justify-content: space-around;
+}
+
+/* Justify Content for Nested Flexbox Utility */
+
+.sb-nested-jc-flex-start > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
+    justify-content: flex-start;
+}
+
+.sb-nested-jc-flex-end > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
+    justify-content: flex-end;
+}
+
+.sb-nested-jc-center > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
+    justify-content: center;
+}
+
+.sb-nested-jc-space-bn > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
+    justify-content: space-between;
+}
+
+.sb-nested-jc-space-ad > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
+    justify-content: space-around;
 }
