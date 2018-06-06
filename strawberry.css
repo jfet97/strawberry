@@ -376,6 +376,20 @@
 
 
 
+/* All is centered, utility for flexbox container  */
+.sb-all-is-centered {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+
+
+/*********************************************************************************************************************************/
+
+
+
 /* Flex Grow - Flex Shrink and Flex Basis Utility */ 
 
 
