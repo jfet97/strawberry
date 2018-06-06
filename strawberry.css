@@ -60,7 +60,9 @@
 
 
 /* Flexbox container rules */
-/* Flex Row */ - /* Following rules are more important than nested one so I wrote them later */
+/* Flex Row */
+
+/* Following rules are more important than nested one so I wrote them later */
 
 .sb-flex-row-wrap {
     display: flex;
