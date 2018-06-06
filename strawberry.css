@@ -369,3 +369,70 @@
 .sb-as-inherit {
     align-self: inherit;
 }
+
+
+/* Flex Grow - Flex Shrink and Flex Basis Utility */ 
+
+.sb-each-item-is-100-percent > *, .sb-each-item-is-a-hundred-percent > * {
+    flex: 1 1 100%;
+}
+
+.sb-each-item-is-90-percent > * {
+    flex: 1 1 90%;
+}
+
+.sb-each-item-is-80-percent > * {
+    flex: 1 1 80%;
+}
+
+.sb-each-item-is-70-percent > * {
+    flex: 1 1 70%;
+}
+
+.sb-each-item-is-60-percent > * {
+    flex: 1 1 60%;
+}
+
+.sb-each-item-is-50-percent > *, .sb-each-item-a-half-percent > * {
+    flex: 1 1 50%;
+}
+
+.sb-each-item-is-40-percent > * {
+    flex: 1 1 40%;
+}
+
+.sb-each-item-is-one-third-percent > * {
+    flex: 1 1 33.3333%;
+}
+
+.sb-each-item-is-30-percent > * {
+    flex: 1 1 30%;
+}
+
+.sb-each-item-is-25-percent > *, .sb-each-item-is-a-quarter-percent > * {
+    flex: 1 1 25%;
+}
+
+.sb-each-item-is-20-percent > *, .sb-each-item-is-a-fifth-percent > * {
+    flex: 1 1 20%;
+}
+
+.sb-each-item-is-a-sixth-percent > * {
+    flex: 1 1 16.6666%;
+}
+
+.sb-each-item-is-a-seventh-percent > * {
+    flex: 1 1 14.2857%;
+}
+
+.sb-each-item-is-an-eighth-percent > * {
+    flex: 1 1 12.50%;
+}
+
+.sb-each-item-is-a-ninth-percent > * {
+    flex: 1 1 11.11%;
+}
+
+.sb-each-item-is-10-percent > *, .sb-each-item-is-a-tenth-percent > * {
+    flex: 1 1 10%;
+}
