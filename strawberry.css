@@ -194,6 +194,7 @@
     justify-content: inherit;
 }
 
+
 /*********************************************************************************************************************************/
 
 
@@ -224,7 +225,7 @@
 }
 
 .sb-ai-inherit {
-    align-items: inherit
+    align-items: inherit;
 }
 
 /* Align Items for Nested Flexbox Utility */
@@ -254,6 +255,79 @@
 }
 
 .sb-ai-inherit > a, .sb-ai-inherit .sb-ai-inherit .sb-ai-inherit {
-    align-items: inherit
+    align-items: inherit;
 }
+
+
+/*********************************************************************************************************************************/
+
+
+/* Align Content Utility */
+
+.sb-ac-stretch {
+    align-content: stretch;
+}
+
+.sb-ac-center {
+    align-content: center;
+}
+
+.sb-ac-flex-start {
+    align-content: flex-start;
+}
+
+.sb-ac-flex-end {
+    align-content: flex-end;
+}
+
+.sb-ac-space-bn {
+    align-content: space-between;
+}
+
+.sb-ac-space-ad {
+    align-content: space-around;
+}
+
+.sb-ac-initial {
+    align-content: initial;
+}
+
+.sb-ac-inherit {
+    align-content: inherit;
+}
+
+/* Align Content for Nested Flexbox Utility */
+
+.sb-ac-stretch > a, .sb-ac-stretch > div, .sb-ac-stretch > li, .sb-ac-stretch > ul {
+    align-content: stretch;
+}
+
+.sb-ac-center > a, .sb-ac-center > div, .sb-ac-center > li, .sb-ac-center > ul {
+    align-content: center;
+}
+
+.sb-ac-flex-start > a, .sb-ac-flex-start > div, .sb-ac-flex-start > li, .sb-ac-flex-start > ul {
+    align-content: flex-start;
+}
+
+.sb-ac-flex-end > a, .sb-ac-flex-end > div, .sb-ac-flex-end > li, .sb-ac-flex-end > ul {
+    align-content: flex-end;
+}
+
+.sb-ac-space-bn > a, .sb-ac-space-bn > div, .sb-ac-space-bn > li, .sb-ac-space-bn > ul {
+    align-content: space-between;
+}
+
+.sb-ac-space-ad > a, .sb-ac-space-ad > div, .sb-ac-space-ad > li, .sb-ac-space-ad > ul {
+    align-content: space-around;
+}
+
+.sb-ac-initial > a, .sb-ac-initial > div, .sb-ac-initial > li, .sb-ac-initial > ul {
+    align-content: initial;
+}
+
+.sb-ac-inherit > a, .sb-ac-inherit .sb-ac-inherit .sb-ac-inherit {
+    align-content: inherit;
+}
+
 
