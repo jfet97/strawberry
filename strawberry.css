@@ -1,57 +1,57 @@
-/* Internal-Nested Flexbox */
+/* Internal-Nested Flexbox only for a, div, li, ul*/
 /* Row */
 
-.sb-nested-flex-row-wrap > * {
+.sb-nested-flex-row-wrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
     display: flex;
     flex-flow: row wrap;
 }
 
-.sb-nested-flex-row-nowrap > * {
+.sb-nested-flex-row-nowrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
     display: flex;
     flex-flow: row nowrap;
 }
 
-.sb-nested-flex-reverse-row-wrap > * {
+.sb-nested-flex-reverse-row-wrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
     display: flex;
     flex-flow: row-reverse wrap;
 }
 
-.sb-nested-flex-reverse-row-nowrap > * {
+.sb-nested-flex-reverse-row-nowrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
     display: flex;
     flex-flow: row-reverse nowrap;
 }
 
 /* Column */
 
-.sb-nested-flex-column-wrap > * {
+.sb-nested-flex-column-wrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
     display: flex;
     flex-flow: column wrap;
 }
 
-.sb-nested-flex-column-nowrap > * {
+.sb-nested-flex-column-nowrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
     display: flex;
     flex-flow: column nowrap;
 }
 
-.sb-nested-flex-reverse-column-wrap > * {
+.sb-nested-flex-reverse-column-wrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
     display: flex;
     flex-flow: column-reverse wrap;
 }
 
-.sb-nested-flex-reverse-column-nowrap > * {
+.sb-nested-flex-reverse-column-nowrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
     display: flex;
     flex-flow: column-reverse nowrap;
 }
 
 /* Inline */
 
-.sb-nested-flex-inline > * {
+.sb-nested-flex-inline > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
     display: inline-flex; /* Important not necessary if this rule is inserted after the previous eight */
 }
 
 /* Reverse Wrap */
 
-.sb-nested-flex-reverse-wrap > * {
+.sb-nested-flex-reverse-wrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
     flex-wrap: wrap-reverse; /* Important not necessary if this rule is inserted after the previous eight */
 }
 
