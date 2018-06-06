@@ -6,52 +6,52 @@
     flex-flow: row wrap;
 }
 
-.sb-nested-flex-row-nowrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
+.sb-nested-flex-row-nowrap > a, .sb-nested-flex-row-nowrap > div, .sb-nested-flex-row-nowrap > li, .sb-nested-flex-row-nowrap > ul  {
     display: flex;
     flex-flow: row nowrap;
 }
 
-.sb-nested-flex-reverse-row-wrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
+.sb-nested-flex-reverse-row-wrap > a, .sb-nested-flex-reverse-row-wrap > div, .sb-nested-flex-reverse-row-wrap > li, .sb-nested-flex-reverse-row-wrap > ul  {
     display: flex;
     flex-flow: row-reverse wrap;
 }
 
-.sb-nested-flex-reverse-row-nowrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
+.sb-nested-flex-reverse-row-nowrap > a, .sb-nested-flex-reverse-row-nowrap > div, .sb-nested-flex-reverse-row-nowrap > ul, .sb-nested-flex-reverse-row-nowrap >li {
     display: flex;
     flex-flow: row-reverse nowrap;
 }
 
 /* Column */
 
-.sb-nested-flex-column-wrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
+.sb-nested-flex-column-wrap > a, .sb-nested-flex-column-wrap > div, .sb-nested-flex-column-wrap > li, .sb-nested-flex-column-wrap > ul  {
     display: flex;
     flex-flow: column wrap;
 }
 
-.sb-nested-flex-column-nowrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
+.sb-nested-flex-column-nowrap > a , .sb-nested-flex-column-nowrap > div, .sb-nested-flex-column-nowrap > li, .sb-nested-flex-column-nowrap > ul  {
     display: flex;
     flex-flow: column nowrap;
 }
 
-.sb-nested-flex-reverse-column-wrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
+.sb-nested-flex-reverse-column-wrap > a, .sb-nested-flex-reverse-column-wrap > div, .sb-nested-flex-reverse-column-wrap > li, .sb-nested-flex-reverse-column-wrap > ul  {
     display: flex;
     flex-flow: column-reverse wrap;
 }
 
-.sb-nested-flex-reverse-column-nowrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
+.sb-nested-flex-reverse-column-nowrap > a, .sb-nested-flex-reverse-column-nowrap > div, .sb-nested-flex-reverse-column-nowrap > li, .sb-nested-flex-reverse-column-nowrap > ul  {
     display: flex;
     flex-flow: column-reverse nowrap;
 }
 
 /* Inline */
 
-.sb-nested-flex-inline > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
+.sb-nested-flex-inline > a, .sb-nested-flex-inline > div, .sb-nested-flex-inline > li, .sb-nested-flex-inline > ul  {
     display: inline-flex; /* Important not necessary if this rule is inserted after the previous eight */
 }
 
 /* Reverse Wrap */
 
-.sb-nested-flex-reverse-wrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul  {
+.sb-nested-flex-inline > a, .sb-nested-flex-inline > div, .sb-nested-flex-inline > li, .sb-nested-flex-inline > ul  {
     flex-wrap: wrap-reverse; /* Important not necessary if this rule is inserted after the previous eight */
 }
 
@@ -435,4 +435,70 @@
 
 .sb-each-item-is-10-percent > *, .sb-each-item-is-a-tenth-percent > * {
     flex: 1 1 10%;
+}
+
+/* Same but with no grow */
+
+.sb-each-item-is-100-percent-no-grow > *, .sb-each-item-is-a-hundred-percent-no-grow > * {
+    flex: 0 1 100%;
+}
+
+.sb-each-item-is-90-percent-no-grow > * {
+    flex: 0 1 90%;
+}
+
+.sb-each-item-is-80-percent-no-grow > * {
+    flex: 0 1 80%;
+}
+
+.sb-each-item-is-70-percent-no-grow > * {
+    flex: 0 1 70%;
+}
+
+.sb-each-item-is-60-percent-no-grow > * {
+    flex: 0 1 60%;
+}
+
+.sb-each-item-is-50-percent-no-grow > *, .sb-each-item-a-half-percent-no-grow > * {
+    flex: 0 1 50%;
+}
+
+.sb-each-item-is-40-percent-no-grow > * {
+    flex: 0 1 40%;
+}
+
+.sb-each-item-is-one-third-percent-no-grow > * {
+    flex: 0 1 33.3333%;
+}
+
+.sb-each-item-is-30-percent-no-grow > * {
+    flex: 0 1 30%;
+}
+
+.sb-each-item-is-25-percent-no-grow > *, .sb-each-item-is-a-quarter-percent-no-grow > * {
+    flex: 0 1 25%;
+}
+
+.sb-each-item-is-20-percent-no-grow > *, .sb-each-item-is-a-fifth-percent-no-grow > * {
+    flex: 0 1 20%;
+}
+
+.sb-each-item-is-a-sixth-percent-no-grow > * {
+    flex: 0 1 16.6666%;
+}
+
+.sb-each-item-is-a-seventh-percent-no-grow > * {
+    flex: 0 1 14.2857%;
+}
+
+.sb-each-item-is-an-eighth-percent-no-grow > * {
+    flex: 0 1 12.50%;
+}
+
+.sb-each-item-is-a-ninth-percent-no-grow > * {
+    flex: 0 1 11.11%;
+}
+
+.sb-each-item-is-10-percent-no-grow > *, .sb-each-item-is-a-tenth-percent-no-grow > * {
+    flex: 0 1 10%;
 }
