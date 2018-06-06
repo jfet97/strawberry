@@ -51,7 +51,7 @@
 
 /* Reverse Wrap */
 
-.sb-nested-flex-wrap > * {
+.sb-nested-flex-reverse-wrap > * {
     flex-wrap: wrap-reverse; /* Important not necessary if this rule is inserted after the previous eight */
 }
 
