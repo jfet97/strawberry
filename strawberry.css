@@ -373,6 +373,8 @@
 
 /* Flex Grow - Flex Shrink and Flex Basis Utility */ 
 
+
+/* Items width with grow = 1 */
 .sb-each-item-is-100-percent > *, .sb-each-item-is-a-hundred-percent > * {
     flex: 1 1 100%;
 }
@@ -437,68 +439,162 @@
     flex: 1 1 10%;
 }
 
-/* Same but with no grow */
+/* Set Flex Basis for an item */
 
-.sb-each-item-is-100-percent-no-grow > *, .sb-each-item-is-a-hundred-percent-no-grow > * {
-    flex: 0 1 100%;
+.sb-flex-basis-is-100-percent, .sb-flex-basis-is-a-hundred-percent {
+    flex-basis: 100%;
 }
 
-.sb-each-item-is-90-percent-no-grow > * {
-    flex: 0 1 90%;
+.sb-flex-basis-is-90-percent-no-grow {
+    flex-basis: 90%;
 }
 
-.sb-each-item-is-80-percent-no-grow > * {
-    flex: 0 1 80%;
+.sb-flex-basis-is-80-percent-no-grow {
+    flex-basis: 80%;
 }
 
-.sb-each-item-is-70-percent-no-grow > * {
-    flex: 0 1 70%;
+.sb-flex-basis-is-70-percent-no-grow {
+    flex-basis: 70%;
 }
 
-.sb-each-item-is-60-percent-no-grow > * {
-    flex: 0 1 60%;
+.sb-flex-basis-is-60-percent-no-grow {
+    flex-basis: 60%;
 }
 
-.sb-each-item-is-50-percent-no-grow > *, .sb-each-item-a-half-percent-no-grow > * {
-    flex: 0 1 50%;
+.sb-flex-basis-is-50-percent-no-grow, .sb-flex-basis-a-half-percent-no-grow {
+    flex-basis: 50%;
 }
 
-.sb-each-item-is-40-percent-no-grow > * {
-    flex: 0 1 40%;
+.sb-flex-basis-is-40-percent-no-grow > {
+    flex-basis: 40%;
 }
 
-.sb-each-item-is-one-third-percent-no-grow > * {
-    flex: 0 1 33.3333%;
+.sb-flex-basis-is-one-third-percent-no-grow > {
+    flex-basis: 33.3333%;
 }
 
-.sb-each-item-is-30-percent-no-grow > * {
-    flex: 0 1 30%;
+.sb-flex-basis-is-30-percent-no-grow > {
+    flex-basis: 30%;
 }
 
-.sb-each-item-is-25-percent-no-grow > *, .sb-each-item-is-a-quarter-percent-no-grow > * {
-    flex: 0 1 25%;
+.sb-flex-basis-is-25-percent-no-grow, .sb-flex-basis-is-a-quarter-percent-no-grow {
+    flex-basis: 25%;
 }
 
-.sb-each-item-is-20-percent-no-grow > *, .sb-each-item-is-a-fifth-percent-no-grow > * {
-    flex: 0 1 20%;
+.sb-flex-basis-is-20-percent-no-grow, .sb-flex-basis-is-a-fifth-percent-no-grow {
+    flex-basis: 20%;
 }
 
-.sb-each-item-is-a-sixth-percent-no-grow > * {
-    flex: 0 1 16.6666%;
+.sb-flex-basis-is-a-sixth-percent-no-grow {
+    flex-basis: 16.6666%;
 }
 
-.sb-each-item-is-a-seventh-percent-no-grow > * {
-    flex: 0 1 14.2857%;
+.sb-flex-basis-is-a-seventh-percent-no-grow {
+    flex-basis: 14.2857%;
 }
 
-.sb-each-item-is-an-eighth-percent-no-grow > * {
-    flex: 0 1 12.50%;
+.sb-flex-basis-is-an-eighth-percent-no-grow {
+    flex-basis: 12.50%;
 }
 
-.sb-each-item-is-a-ninth-percent-no-grow > * {
-    flex: 0 1 11.11%;
+.sb-flex-basis-is-a-ninth-percent-no-grow {
+    flex-basis: 11.11%;
 }
 
-.sb-each-item-is-10-percent-no-grow > *, .sb-each-item-is-a-tenth-percent-no-grow > * {
-    flex: 0 1 10%;
+.sb-flex-basis-is-10-percent-no-grow,  .sb-flex-basis-is-a-tenth-percent-no-grow {
+    flex-basis: 10%;
+}
+
+
+/* Set Flex Grow for an item*/
+
+.sb-flex-grow-0 {
+    flex-grow: 0;
+}
+
+.sb-flex-grow-1 {
+    flex-grow: 1;
+}
+
+.sb-flex-grow-2 {
+    flex-grow: 2;
+}
+
+.sb-flex-grow-3 {
+    flex-grow: 3;
+}
+
+.sb-flex-grow-4 {
+    flex-grow: 4;
+}
+
+.sb-flex-grow-5 {
+    flex-grow: 5;
+}
+
+.sb-flex-grow-6 {
+    flex-grow: 6;
+}
+
+.sb-flex-grow-7 {
+    flex-grow: 7;
+}
+
+.sb-flex-grow-8 {
+    flex-grow: 8;
+}
+
+.sb-flex-grow-9 {
+    flex-grow: 9;
+}
+
+.sb-flex-grow-10 {
+    flex-grow: 10;
+}
+
+
+/* Set Flex Shrink for an item*/
+
+.sb-flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.sb-flex-shrink-1 {
+    flex-shrink: 1;
+}
+
+.sb-flex-shrink-2 {
+    flex-shrink: 2;
+}
+
+.sb-flex-shrink-3 {
+    flex-shrink: 3;
+}
+
+.sb-flex-shrink-4 {
+    flex-shrink: 4;
+}
+
+.sb-flex-shrink-5 {
+    flex-shrink: 5;
+}
+
+.sb-flex-shrink-6 {
+    flex-shrink: 6;
+}
+
+.sb-flex-shrink-7 {
+    flex-shrink: 7;
+}
+
+.sb-flex-shrink-8 {
+    flex-shrink: 8;
+}
+
+.sb-flex-shrink-9 {
+    flex-shrink: 9;
+}
+
+.sb-flex-shrink-10 {
+    flex-shrink: 10;
 }
