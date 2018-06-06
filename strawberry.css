@@ -331,3 +331,39 @@
 }
 
 
+/*********************************************************************************************************************************/
+
+
+/* Align Self Utility */
+
+.sb-as-auto {
+    align-self: auto;
+}
+
+.sb-as-stretch {
+    align-self: stretch;
+}
+
+.sb-as-center {
+    align-self: center;
+}
+
+.sb-as-flex-start {
+    align-self: flex-start;
+}
+
+.sb-as-flex-end {
+    align-self: flex-end;
+}
+
+.sb-as-baseline {
+    align-self: baseline;
+}
+
+.sb-as-initial {
+    align-self: initial;
+}
+
+.sb-as-inherit {
+    align-self: inherit;
+}
