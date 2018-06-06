@@ -1,67 +1,3 @@
-/* Flex Row */
-
-.sb-flex-row-wrap {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.sb-flex-row-nowrap {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-.sb-flex-reverse-row-wrap {
-    display: flex;
-    flex-flow: row-reverse wrap;
-}
-
-.sb-flex-reverse-row-nowrap {
-    display: flex;
-    flex-flow: row-reverse nowrap;
-}
-
-/*********************************************************************************************************************************/
-
-/* Flex Column */
-
-.sb-flex-column-wrap {
-    display: flex;
-    flex-flow: column wrap;
-}
-
-.sb-flex-column-nowrap {
-    display: flex;
-    flex-flow: column nowrap;
-}
-
-.sb-flex-reverse-column-wrap {
-    display: flex;
-    flex-flow: column-reverse wrap;
-}
-
-.sb-flex-reverse-column-nowrap {
-    display: flex;
-    flex-flow: column-reverse nowrap;
-}
-
-/*********************************************************************************************************************************/
-
-/* Flex Inline */
-
-.sb-flex-inline {
-    display: inline-flex !important;
-}
-
-/*********************************************************************************************************************************/
-
-/* Reverse Wrap */
-
-.sb-flex-reverse-wrap {
-    flex-wrap: wrap-reverse !important;
-}
-
-/*********************************************************************************************************************************/
-
 /* Internal-Nested Flexbox */
 /* Row */
 
@@ -110,14 +46,74 @@
 /* Inline */
 
 .sb-nested-flex-inline > * {
-    display: inline-flex !important;
+    display: inline-flex; /* Important not necessary if this rule is inserted after the previous eight */
 }
 
 /* Reverse Wrap */
 
 .sb-nested-flex-wrap > * {
-    flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse; /* Important not necessary if this rule is inserted after the previous eight */
 }
+
+
 /*********************************************************************************************************************************/
 
+
+/* Flex Row */ - /* Following rules are more important than nested one so I wrote them later */
+
+.sb-flex-row-wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sb-flex-row-nowrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.sb-flex-reverse-row-wrap {
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+.sb-flex-reverse-row-nowrap {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+
+/* Flex Column */
+
+.sb-flex-column-wrap {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.sb-flex-column-nowrap {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sb-flex-reverse-column-wrap {
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+
+.sb-flex-reverse-column-nowrap {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+
+/* Flex Inline */
+
+.sb-flex-inline {
+    display: inline-flex; /* Important not necessary if this rule is inserted after the previous eight */
+}
+
+/* Reverse Wrap */
+
+.sb-flex-reverse-wrap {
+    flex-wrap: wrap-reverse; /* Important not necessary if this rule is inserted after the previous eight */
+}
+
+/*********************************************************************************************************************************/
 
