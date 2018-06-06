@@ -1,2 +1,3 @@
 # strawberry
-A new flexbox based CSS framework
+A new flexbox based CSS non-framework
+Read the wiki!
