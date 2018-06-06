@@ -1,4 +1,4 @@
-# strawberry
-A new flexbox based CSS non-framework.
+Why use strawberry? 
 
-Read the wiki!
+• It's light: < than 10kbytes
+• It's powerful: make any layout in few lines of codes
