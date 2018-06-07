@@ -9,5 +9,5 @@ Why use strawberry?
 • No preset graphic style: it helps you to create layouts without messing up your life<br>
 • No conflicts with other used framework in the same project: all classes start with the sb- prefix<br>
 • Easy to override: strawberry never use !important 
-<br><br><br><br>
+<br><br>
 [Read the wiki!](https://github.com/jfet97/strawberry/wiki)
