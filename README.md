@@ -1,3 +1,11 @@
+<h1 align="center">
+    <br>
+    <img width="200" src="https://github.com/jfet97/strawberry/blob/master/img/logo.png" alt="strawberry">
+    <br>
+    <br>
+    <br>
+</h1>
+
 What is Strawberry? 
 <br><br>
 It is a new flexbox based CSS micro-framework, a set of flexbox common utilities focused on make life easier and faster with nested flexbox.
