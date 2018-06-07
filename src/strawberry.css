@@ -414,7 +414,7 @@
     flex: 1 1 60%;
 }
 
-.sb-each-item-is-50-percent > *, .sb-each-item-a-half-percent > * {
+.sb-each-item-is-50-percent > *, .sb-each-item-a-half > * {
     flex: 1 1 50%;
 }
 
@@ -422,7 +422,7 @@
     flex: 1 1 40%;
 }
 
-.sb-each-item-is-one-third-percent > * {
+.sb-each-item-is-one-third > * {
     flex: 1 1 33.3333%;
 }
 
@@ -430,31 +430,31 @@
     flex: 1 1 30%;
 }
 
-.sb-each-item-is-25-percent > *, .sb-each-item-is-a-quarter-percent > * {
+.sb-each-item-is-25-percent > *, .sb-each-item-is-a-quarter> * {
     flex: 1 1 25%;
 }
 
-.sb-each-item-is-20-percent > *, .sb-each-item-is-a-fifth-percent > * {
+.sb-each-item-is-20-percent > *, .sb-each-item-is-a-fifth > * {
     flex: 1 1 20%;
 }
 
-.sb-each-item-is-a-sixth-percent > * {
+.sb-each-item-is-a-sixth > * {
     flex: 1 1 16.6666%;
 }
 
-.sb-each-item-is-a-seventh-percent > * {
+.sb-each-item-is-a-seventh > * {
     flex: 1 1 14.2857%;
 }
 
-.sb-each-item-is-an-eighth-percent > * {
+.sb-each-item-is-an-eighth > * {
     flex: 1 1 12.50%;
 }
 
-.sb-each-item-is-a-ninth-percent > * {
+.sb-each-item-is-a-ninth > * {
     flex: 1 1 11.11%;
 }
 
-.sb-each-item-is-10-percent > *, .sb-each-item-is-a-tenth-percent > * {
+.sb-each-item-is-10-percent > *, .sb-each-item-is-a-tenth > * {
     flex: 1 1 10%;
 }
 
@@ -480,7 +480,7 @@
     flex: 0 1 60%;
 }
 
-.sb-each-item-is-50-percent-no-grow > *, .sb-each-item-a-half-percent-no-grow > * {
+.sb-each-item-is-50-percent-no-grow > *, .sb-each-item-a-half-no-grow > * {
     flex: 0 1 50%;
 }
 
@@ -488,7 +488,7 @@
     flex: 0 1 40%;
 }
 
-.sb-each-item-is-one-third-percent-no-grow > * {
+.sb-each-item-is-one-third-no-grow > * {
     flex: 0 1 33.3333%;
 }
 
@@ -496,31 +496,31 @@
     flex: 0 1 30%;
 }
 
-.sb-each-item-is-25-percent-no-grow > *, .sb-each-item-is-a-quarter-percent-no-grow > * {
+.sb-each-item-is-25-percent-no-grow > *, .sb-each-item-is-a-quarter-no-grow > * {
     flex: 0 1 25%;
 }
 
-.sb-each-item-is-20-percent-no-grow > *, .sb-each-item-is-a-fifth-percent-no-grow > * {
+.sb-each-item-is-20-percent-no-grow > *, .sb-each-item-is-a-fifth-no-grow > * {
     flex: 0 1 20%;
 }
 
-.sb-each-item-is-a-sixth-percent-no-grow > * {
+.sb-each-item-is-a-sixth-no-grow > * {
     flex: 0 1 16.6666%;
 }
 
-.sb-each-item-is-a-seventh-percent-no-grow > * {
+.sb-each-item-is-a-sevent-no-grow > * {
     flex: 0 1 14.2857%;
 }
 
-.sb-each-item-is-an-eighth-percent-no-grow > * {
+.sb-each-item-is-an-eighth-no-grow > * {
     flex: 0 1 12.50%;
 }
 
-.sb-each-item-is-a-ninth-percent-no-grow > * {
+.sb-each-item-is-a-ninth-no-grow > * {
     flex: 0 1 11.11%;
 }
 
-.sb-each-item-is-10-percent-no-grow > *, .sb-each-item-is-a-tenth-percent-no-grow > * {
+.sb-each-item-is-10-percent-no-grow > *, .sb-each-item-is-a-tenth-no-grow > * {
     flex: 0 1 10%;
 }
 
@@ -552,7 +552,7 @@
     flex-basis: 60%;
 }
 
-.sb-flex-basis-is-50-percent, .sb-flex-basis-a-half-percent {
+.sb-flex-basis-is-50-percent, .sb-flex-basis-a-half {
     flex-basis: 50%;
 }
 
@@ -560,7 +560,7 @@
     flex-basis: 40%;
 }
 
-.sb-flex-basis-is-one-third-percent {
+.sb-flex-basis-is-one-third {
     flex-basis: 33.3333%;
 }
 
@@ -568,31 +568,31 @@
     flex-basis: 30%;
 }
 
-.sb-flex-basis-is-25-percent, .sb-flex-basis-is-a-quarter-percent {
+.sb-flex-basis-is-25-percent, .sb-flex-basis-is-a-quarter {
     flex-basis: 25%;
 }
 
-.sb-flex-basis-is-20-percent, .sb-flex-basis-is-a-fifth-percent {
+.sb-flex-basis-is-20-percent, .sb-flex-basis-is-a-fifth {
     flex-basis: 20%;
 }
 
-.sb-flex-basis-is-a-sixth-percent {
+.sb-flex-basis-is-a-sixth {
     flex-basis: 16.6666%;
 }
 
-.sb-flex-basis-is-a-seventh-percent {
+.sb-flex-basis-is-a-seventh {
     flex-basis: 14.2857%;
 }
 
-.sb-flex-basis-is-an-eighth-percent {
+.sb-flex-basis-is-an-eighth {
     flex-basis: 12.50%;
 }
 
-.sb-flex-basis-is-a-ninth-percent {
+.sb-flex-basis-is-a-ninth {
     flex-basis: 11.11%;
 }
 
-.sb-flex-basis-is-10-percent,  .sb-flex-basis-is-a-tenth-percent {
+.sb-flex-basis-is-10-percent,  .sb-flex-basis-is-a-tenth {
     flex-basis: 10%;
 }
 
