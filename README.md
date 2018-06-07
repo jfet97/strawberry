@@ -19,3 +19,5 @@ Why use strawberry?
 • Easy to override: strawberry never use !important 
 <br><br>
 [Read the wiki!](https://github.com/jfet97/strawberry/wiki)
+
+You can install it using [npm](https://www.npmjs.com/): `npm install strawberry-css`
