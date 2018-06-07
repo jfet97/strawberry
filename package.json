@@ -1,0 +1,24 @@
+{
+  "name": "strawberry-css",
+  "version": "1.0.5",
+  "description": "New flexbox based CSS micro-framework, a set of flexbox common utilities focused on make life easier and faster with nested flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfet97/strawberry.git"
+  },
+  "keywords": [
+    "flexbox",
+    "css",
+    "framework"
+  ],
+  "author": "Andrea Simone Costa <andrysimo1997@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfet97/strawberry/issues"
+  },
+  "homepage": "https://github.com/jfet97/strawberry#readme"
+}
