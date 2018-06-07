@@ -135,37 +135,6 @@
 
 /*********************************************************************************************************************************/
 
-
-/* Justify Content Utility */
-
-.sb-jc-flex-start {
-    justify-content: flex-start;
-}
-
-.sb-jc-flex-end {
-    justify-content: flex-end;
-}
-
-.sb-jc-center {
-    justify-content: center;
-}
-
-.sb-jc-space-bn {
-    justify-content: space-between;
-}
-
-.sb-jc-space-ad {
-    justify-content: space-around;
-}
-
-.sb-jc-initial {
-    justify-content: initial;
-}
-
-.sb-jc-inherit {
-    justify-content: inherit;
-}
-
 /* Justify Content for Nested Flexbox Utility */
 
 .sb-nested-jc-flex-start > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
@@ -196,39 +165,36 @@
     justify-content: inherit;
 }
 
+/* Justify Content Utility */
 
+.sb-jc-flex-start {
+    justify-content: flex-start;
+}
+
+.sb-jc-flex-end {
+    justify-content: flex-end;
+}
+
+.sb-jc-center {
+    justify-content: center;
+}
+
+.sb-jc-space-bn {
+    justify-content: space-between;
+}
+
+.sb-jc-space-ad {
+    justify-content: space-around;
+}
+
+.sb-jc-initial {
+    justify-content: initial;
+}
+
+.sb-jc-inherit {
+    justify-content: inherit;
+}
 /*********************************************************************************************************************************/
-
-
-/* Align Items Utility */
-
-.sb-ai-stretch {
-    align-items: stretch;
-}
-
-.sb-ai-center {
-    align-items: center;
-}
-
-.sb-ai-flex-start {
-    align-items: flex-start;
-}
-
-.sb-ai-flex-end {
-    align-items: flex-end;
-}
-
-.sb-ai-baseline {
-    align-items: baseline;
-}
-
-.sb-ai-initial {
-    align-items: initial;
-}
-
-.sb-ai-inherit {
-    align-items: inherit;
-}
 
 /* Align Items for Nested Flexbox Utility */
 
@@ -260,43 +226,41 @@
     align-items: inherit;
 }
 
+/* Align Items Utility */
+
+.sb-ai-stretch {
+    align-items: stretch;
+}
+
+.sb-ai-center {
+    align-items: center;
+}
+
+.sb-ai-flex-start {
+    align-items: flex-start;
+}
+
+.sb-ai-flex-end {
+    align-items: flex-end;
+}
+
+.sb-ai-baseline {
+    align-items: baseline;
+}
+
+.sb-ai-initial {
+    align-items: initial;
+}
+
+.sb-ai-inherit {
+    align-items: inherit;
+}
+
+
 
 /*********************************************************************************************************************************/
 
 
-/* Align Content Utility */
-
-.sb-ac-stretch {
-    align-content: stretch;
-}
-
-.sb-ac-center {
-    align-content: center;
-}
-
-.sb-ac-flex-start {
-    align-content: flex-start;
-}
-
-.sb-ac-flex-end {
-    align-content: flex-end;
-}
-
-.sb-ac-space-bn {
-    align-content: space-between;
-}
-
-.sb-ac-space-ad {
-    align-content: space-around;
-}
-
-.sb-ac-initial {
-    align-content: initial;
-}
-
-.sb-ac-inherit {
-    align-content: inherit;
-}
 
 /* Align Content for Nested Flexbox Utility */
 
@@ -332,6 +296,40 @@
     align-content: inherit;
 }
 
+
+/* Align Content Utility */
+
+.sb-ac-stretch {
+    align-content: stretch;
+}
+
+.sb-ac-center {
+    align-content: center;
+}
+
+.sb-ac-flex-start {
+    align-content: flex-start;
+}
+
+.sb-ac-flex-end {
+    align-content: flex-end;
+}
+
+.sb-ac-space-bn {
+    align-content: space-between;
+}
+
+.sb-ac-space-ad {
+    align-content: space-around;
+}
+
+.sb-ac-initial {
+    align-content: initial;
+}
+
+.sb-ac-inherit {
+    align-content: inherit;
+}
 
 /*********************************************************************************************************************************/
 
