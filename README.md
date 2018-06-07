@@ -1,21 +1,30 @@
-<h1 align="center">
-    <br>
-    <img width="200" src="https://github.com/jfet97/strawberry/blob/master/img/logo.png" alt="strawberry">
-    <br>
-    <br>
-    <br>
-</h1>
+# Strawberry CSS [![NPM version](https://img.shields.io/npm/v/strawberry-css.svg)](https://www.npmjs.com/package/strawberry-css) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jfet97/strawberry/blob/master/LICENSE)
 
-What is Strawberry? 
-<br><br>
-It is a new flexbox based CSS micro-framework, a set of flexbox common utilities focused on make life easier and faster with nested flexbox.
-<br><br>
-Why use strawberry? 
-<br><br>
-• It's light: less than 12kbytes<br>
-• It's powerful: make any layout in few lines of code<br>
-• No preset graphic style: it helps you to create layouts without messing up your life<br>
-• No conflicts with other used framework in the same project: all classes start with the sb- prefix<br>
-• Easy to override: strawberry never use !important 
-<br><br>
+<img alt="Lighthouse CI logo" src="img/logo.png" width="300px">
+
+> a new flexbox based CSS micro-framework
+
+## What
+
+Strawberry is a new flexbox based CSS micro-framework.
+A set of common flexbox's utilities focused on making your life easier and faster with nested flexboxes.
+
+## How
+
+```sh
+$ npm i --save strawberry-css
+```
+
+## Why
+
+1. It's light: less than 12Kb
+2. It's powerful: make any layout in few lines of code
+3. No preset graphic style: it helps you to create layouts without messing up your life
+4. No conflicts with other used framework in the same project: all classes start with the sb- prefix
+5. Easy to override: strawberry never use !important
+
 [Read the wiki!](https://github.com/jfet97/strawberry/wiki)
+
+## License
+
+MIT
