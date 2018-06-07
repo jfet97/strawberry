@@ -1,10 +1,10 @@
 What is Strawberry? 
-
+<br>
 It is a new flexbox based CSS micro-framework, a set of flexbox common utilities focused on make life easier and faster with nested flexbox.
 
 <br>
 Why use strawberry? 
-
+<br>
 • It's light: less than 10kbytes<br>
 • It's powerful: make any layout in few lines of code<br>
 • No preset graphic style: it helps you to create layouts without messing up your life<br>
