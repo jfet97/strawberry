@@ -64,57 +64,57 @@
 
 /* Following rules are more important than nested one so I wrote them later */
 
-.sb-flex-row-wrap {
+a.sb-flex-row-wrap, div.sb-flex-row-wrap, li.sb-flex-row-wrap, ul.sb-flex-row-wrap {
     display: flex;
     flex-flow: row wrap;
 }
 
-.sb-flex-row-nowrap {
+a.sb-flex-row-nowrap, div.sb-flex-row-nowrap, li.sb-flex-row-nowrap, ul.sb-flex-row-nowrap {
     display: flex;
     flex-flow: row nowrap;
 }
 
-.sb-flex-reverse-row-wrap {
+a.sb-flex-reverse-row-wrap, div.sb-flex-reverse-row-wrap, li.sb-flex-reverse-row-wrap, ul.sb-flex-reverse-row-wrap {
     display: flex;
     flex-flow: row-reverse wrap;
 }
 
-.sb-flex-reverse-row-nowrap {
+a.sb-flex-reverse-row-nowrap, div.sb-flex-reverse-row-nowrap, li.sb-flex-reverse-row-nowrap, ul.sb-flex-reverse-row-nowrap {
     display: flex;
     flex-flow: row-reverse nowrap;
 }
 
 /* Flex Column */
 
-.sb-flex-column-wrap {
+a.sb-flex-column-wrap, div.sb-flex-column-wrap, li.sb-flex-column-wrap, ul.sb-flex-column-wrap  {
     display: flex;
     flex-flow: column wrap;
 }
 
-.sb-flex-column-nowrap {
+a.sb-flex-column-nowrap, div.sb-flex-column-nowrap, li.sb-flex-column-nowrap, ul.sb-flex-column-nowrap{
     display: flex;
     flex-flow: column nowrap;
 }
 
-.sb-flex-reverse-column-wrap {
+a.sb-flex-reverse-column-wrap, div.sb-flex-reverse-column-wrap, li.sb-flex-reverse-column-wrap, ul.sb-flex-reverse-column-wrap {
     display: flex;
     flex-flow: column-reverse wrap;
 }
 
-.sb-flex-reverse-column-nowrap {
+a.sb-flex-reverse-column-nowrap, div.sb-flex-reverse-column-nowrap, li.sb-flex-reverse-column-nowrap, ul.sb-flex-reverse-column-nowrap {
     display: flex;
     flex-flow: column-reverse nowrap;
 }
 
 /* Flex Inline */
 
-.sb-flex-inline {
+a.sb-flex-inline, div.sb-flex-inline, li.sb-flex-inline, ul.sb-flex-inline {
     display: inline-flex; /* Important not necessary if this rule is inserted after the previous eight */
 }
 
 /* Reverse Wrap */
 
-.sb-flex-reverse-wrap {
+a.sb-flex-reverse-wrap, div.sb-flex-reverse-wrap, li.sb-flex-reverse-wrap, ul.sb-flex-reverse-wrap {
     flex-wrap: wrap-reverse; /* Important not necessary if this rule is inserted after the previous eight */
 }
 
@@ -167,31 +167,31 @@
 
 /* Justify Content Utility */
 
-.sb-jc-flex-start {
+a.sb-jc-flex-start, div.sb-jc-flex-start, li.sb-jc-flex-start, ul.sb-jc-flex-start {
     justify-content: flex-start;
 }
 
-.sb-jc-flex-end {
+a.sb-jc-flex-end, div.sb-jc-flex-end, li.sb-jc-flex-end, ul.sb-jc-flex-end {
     justify-content: flex-end;
 }
 
-.sb-jc-center {
+a.sb-jc-center, div.sb-jc-center, li.sb-jc-center, ul.sb-jc-center {
     justify-content: center;
 }
 
-.sb-jc-space-bn {
+a.sb-jc-space-bn, div.sb-jc-space-bn, li.sb-jc-space-bn, ul.sb-jc-space-bn {
     justify-content: space-between;
 }
 
-.sb-jc-space-ad {
+a.sb-jc-space-ad, div.sb-jc-space-ad, li.sb-jc-space-ad, ul.sb-jc-space-ad {
     justify-content: space-around;
 }
 
-.sb-jc-initial {
+a.sb-jc-initial, div.sb-jc-initial, li.sb-jc-initial, ul.sb-jc-initial {
     justify-content: initial;
 }
 
-.sb-jc-inherit {
+a.sb-jc-inherit, div.sb-jc-inherit, li.sb-jc-inherit, ul.sb-jc-inherit {
     justify-content: inherit;
 }
 /*********************************************************************************************************************************/
@@ -228,31 +228,31 @@
 
 /* Align Items Utility */
 
-.sb-ai-stretch {
+a.sb-ai-stretch, div.sb-ai-stretch, li.sb-ai-stretch, ul.sb-ai-stretch,  {
     align-items: stretch;
 }
 
-.sb-ai-center {
+a.sb-ai-center, div.sb-ai-center, li.sb-ai-center, ul.sb-ai-center {
     align-items: center;
 }
 
-.sb-ai-flex-start {
+a.sb-ai-flex-start, div.sb-ai-flex-start, li.sb-ai-flex-start, ul.sb-ai-flex-start {
     align-items: flex-start;
 }
 
-.sb-ai-flex-end {
+a.sb-ai-flex-end, div.sb-ai-flex-end, li.sb-ai, -flex-end, ul.sb-ai-flex-end {
     align-items: flex-end;
 }
 
-.sb-ai-baseline {
+a.sb-ai-baseline, div.sb-ai-baseline, li.sb-ai-baseline, ul.sb-ai-baseline {
     align-items: baseline;
 }
 
-.sb-ai-initial {
+a.sb-ai-initial, div.sb-ai-initial, li.sb-ai-initial, ul.sb-ai-initial {
     align-items: initial;
 }
 
-.sb-ai-inherit {
+a.sb-ai-inherit, div.sb-ai-inherit, li.sb-ai-inherit, ul.sb-ai-inherit {
     align-items: inherit;
 }
 
@@ -299,35 +299,35 @@
 
 /* Align Content Utility */
 
-.sb-ac-stretch {
+a.sb-ac-stretch, div.sb-ac-stretch, li.sb-ac-stretch, ul.sb-ac-stretch  {
     align-content: stretch;
 }
 
-.sb-ac-center {
+a.sb-ac-center, div.sb-ac-center, li.sb-ac-center, ul.sb-ac-center  {
     align-content: center;
 }
 
-.sb-ac-flex-start {
+a.sb-ac-flex-start, div.sb-ac-flex-start, li.sb-ac-flex-start, ul.sb-ac-flex-start  {
     align-content: flex-start;
 }
 
-.sb-ac-flex-end {
+a.sb-ac-flex-end, div.sb-ac-flex-end, li.sb-ac-flex-end, ul.sb-ac-flex-end  {
     align-content: flex-end;
 }
 
-.sb-ac-space-bn {
+a.sb-ac-space-bn, div.sb-ac-space-bn, li.sb-ac-space-bn, ul.sb-ac-space-bn  {
     align-content: space-between;
 }
 
-.sb-ac-space-ad {
+a.sb-ac-space-ad, div.sb-ac-space-ad, li.sb-ac-space-ad, ul.sb-ac-space-ad  {
     align-content: space-around;
 }
 
-.sb-ac-initial {
+a.sb-ac-initial, div.sb-ac-initial, li.sb-ac-initial, ul.sb-ac-initial  {
     align-content: initial;
 }
 
-.sb-ac-inherit {
+a.sb-ac-inherit, div.sb-ac-inherit, li.sb-ac-inherit, ul.sb-ac-inherit  {
     align-content: inherit;
 }
 
