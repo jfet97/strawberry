@@ -2,8 +2,6 @@
 
 <h1 align="center"><img alt="strawberry-css logo" src="img/logo.png" width="300px"></h1>
 
-> a new flexbox based CSS micro-framework
-
 ## What
 
 Strawberry is a new flexbox based CSS micro-framework.
@@ -13,6 +11,14 @@ A set of common flexbox's utilities focused on making your life easier and faste
 
 ```sh
 $ npm i --save strawberry-css
+```
+
+or
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/strawberry-css/dist/optionalreset.min.css">
+<link rel="stylesheet" href="https://unpkg.com/strawberry-css/dist/strawberry.min.css">
+
 ```
 
 ## Why
