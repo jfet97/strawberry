@@ -26,7 +26,7 @@ or
 ## Why
 
 1. It's light: less than 15Kb
-2. It's powerful: make any layout in few lines of code
+2. It’s powerful: create Flexbox-based layouts in few lines of code
 3. No preset graphic style: it helps you to create layouts without messing up your life
 4. No conflicts with other used framework in the same project: all classes start with the sb- prefix
 5. Easy to override: strawberry never use !important
