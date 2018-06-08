@@ -525,6 +525,208 @@ a.sb-ac-inherit, div.sb-ac-inherit, li.sb-ac-inherit, ul.sb-ac-inherit  {
     flex: 0 1 10%;
 }
 
+/* ---------------------------------- Same but with Shrink = 0 -------------------------------------------- */
+
+.sb-each-item-is-100-percent-no-shrink > *, .sb-each-item-is-a-hundred-percent-no-shrink > * {
+    flex: 1 0 100%;
+}
+
+.sb-each-item-is-90-percent-no-shrink > * {
+    flex: 1 0 90%;
+}
+
+.sb-each-item-is-80-percent-no-shrink > * {
+    flex: 1 0 80%;
+}
+
+.sb-each-item-is-70-percent-no-shrink > * {
+    flex: 1 0 70%;
+}
+
+.sb-each-item-is-60-percent-no-shrink > * {
+    flex: 1 0 60%;
+}
+
+.sb-each-item-is-50-percent-no-shrink > *, .sb-each-item-a-half-no-shrink > * {
+    flex: 1 0 50%;
+}
+
+.sb-each-item-is-40-percent-no-shrink > * {
+    flex: 1 0 40%;
+}
+
+.sb-each-item-is-one-third-no-shrink > * {
+    flex: 1 0 33.3333%;
+}
+
+.sb-each-item-is-30-percent-no-shrink > * {
+    flex: 1 0 30%;
+}
+
+.sb-each-item-is-25-percent-no-shrink > *, .sb-each-item-is-a-quarter-no-shrink > * {
+    flex: 1 0 25%;
+}
+
+.sb-each-item-is-20-percent-no-shrink > *, .sb-each-item-is-a-fifth-no-shrink > * {
+    flex: 1 0 20%;
+}
+
+.sb-each-item-is-a-sixth-no-shrink > * {
+    flex: 1 0 16.6666%;
+}
+
+.sb-each-item-is-a-sevent-no-shrink > * {
+    flex: 1 0 14.2857%;
+}
+
+.sb-each-item-is-an-eighth-no-shrink > * {
+    flex: 1 0 12.50%;
+}
+
+.sb-each-item-is-a-ninth-no-shrink > * {
+    flex: 1 0 11.11%;
+}
+
+.sb-each-item-is-10-percent-no-shrink > *, .sb-each-item-is-a-tenth-no-shrink > * {
+    flex: 1 0 10%;
+}
+
+
+/* ---------------------------------- Same but with Grow = 0 AND Shrink = 0 -------------------------------------------- */
+
+.sb-each-item-is-100-percent-no-gs > *, .sb-each-item-is-a-hundred-percent-no-gs > * {
+    flex: 0 0 100%;
+}
+
+.sb-each-item-is-90-percent-no-gs > * {
+    flex: 0 0 90%;
+}
+
+.sb-each-item-is-80-percent-no-gs > * {
+    flex: 0 0 80%;
+}
+
+.sb-each-item-is-70-percent-no-gs > * {
+    flex: 0 0 70%;
+}
+
+.sb-each-item-is-60-percent-no-gs > * {
+    flex: 0 0 60%;
+}
+
+.sb-each-item-is-50-percent-no-gs > *, .sb-each-item-a-half-no-gs > * {
+    flex: 0 0 50%;
+}
+
+.sb-each-item-is-40-percent-no-gs > * {
+    flex: 0 0 40%;
+}
+
+.sb-each-item-is-one-third-no-gs > * {
+    flex: 0 0 33.3333%;
+}
+
+.sb-each-item-is-30-percent-no-gs > * {
+    flex: 0 0 30%;
+}
+
+.sb-each-item-is-25-percent-no-gs > *, .sb-each-item-is-a-quarter-no-gs > * {
+    flex: 0 0 25%;
+}
+
+.sb-each-item-is-20-percent-no-gs > *, .sb-each-item-is-a-fifth-no-gs > * {
+    flex: 0 0 20%;
+}
+
+.sb-each-item-is-a-sixth-no-gs > * {
+    flex: 0 0 16.6666%;
+}
+
+.sb-each-item-is-a-sevent-no-gs > * {
+    flex: 0 0 14.2857%;
+}
+
+.sb-each-item-is-an-eighth-no-gs > * {
+    flex: 0 0 12.50%;
+}
+
+.sb-each-item-is-a-ninth-no-gs > * {
+    flex: 0 0 11.11%;
+}
+
+.sb-each-item-is-10-percent-no-gs > *, .sb-each-item-is-a-tenth-no-gs > * {
+    flex: 0 0 10%;
+}
+
+/*********************************************************************************************************************************/
+
+
+
+/* Set Flex Basis for an item */
+
+.sb-flex-basis-is-100-percent, .sb-flex-basis-is-a-hundred-percent {
+    flex-basis: 100%;
+}
+
+.sb-flex-basis-is-90-percent {
+    flex-basis: 90%;
+}
+
+.sb-flex-basis-is-80-percent {
+    flex-basis: 80%;
+}
+
+.sb-flex-basis-is-70-percent {
+    flex-basis: 70%;
+}
+
+.sb-flex-basis-is-60-percent {
+    flex-basis: 60%;
+}
+
+.sb-flex-basis-is-50-percent, .sb-flex-basis-a-half {
+    flex-basis: 50%;
+}
+
+.sb-flex-basis-is-40-percent {
+    flex-basis: 40%;
+}
+
+.sb-flex-basis-is-one-third {
+    flex-basis: 33.3333%;
+}
+
+.sb-flex-basis-is-30-percent {
+    flex-basis: 30%;
+}
+
+.sb-flex-basis-is-25-percent, .sb-flex-basis-is-a-quarter {
+    flex-basis: 25%;
+}
+
+.sb-flex-basis-is-20-percent, .sb-flex-basis-is-a-fifth {
+    flex-basis: 20%;
+}
+
+.sb-flex-basis-is-a-sixth {
+    flex-basis: 16.6666%;
+}
+
+.sb-flex-basis-is-a-seventh {
+    flex-basis: 14.2857%;
+}
+
+.sb-flex-basis-is-an-eighth {
+    flex-basis: 12.50%;
+}
+
+.sb-flex-basis-is-a-ninth {
+    flex-basis: 11.11%;
+}
+
+.sb-flex-basis-is-10-percent,  .sb-flex-basis-is-a-tenth {
+    flex-basis: 10%;
+}
 
 
 /*********************************************************************************************************************************/
