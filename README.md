@@ -32,6 +32,7 @@ or
 4. No conflicts with other used framework in the same project: all classes start with the sb- prefix
 5. Easy to override: strawberry never use !important
 
+## Wiki
 [Read the wiki!](https://github.com/jfet97/strawberry/wiki)
 
 ## Bugs
