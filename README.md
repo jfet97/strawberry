@@ -20,7 +20,6 @@ $ npm i --save strawberry-css
 or
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/strawberry-css/dist/optionalreset.min.css">
 <link rel="stylesheet" href="https://unpkg.com/strawberry-css/dist/strawberry.min.css">
 
 ```
