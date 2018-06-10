@@ -36,7 +36,15 @@ or
 [Read the wiki!](https://github.com/jfet97/strawberry/wiki)
 
 ## Bugs
-Feel free to [open an issue](https://github.com/jfet97/strawberry/issues) or to email us at [andrysimo1997@gmail.com].
+Have you found something wrong?
+1) Read and apply [these guidelines](https://github.com/jfet97/strawberry/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+2) Feel free to [open an issue](https://github.com/jfet97/strawberry/issues) or to email us at [andrysimo1997@gmail.com].
+
+## Features
+Would you like to see a new feature added?
+1) Read and apply [these guidelines](https://github.com/jfet97/strawberry/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
+2) Feel free to [open an issue](https://github.com/jfet97/strawberry/issues) or to email us at [andrysimo1997@gmail.com].
+
 
 ## Contributing
 
