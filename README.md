@@ -34,6 +34,23 @@ or
 
 [Read the wiki!](https://github.com/jfet97/strawberry/wiki)
 
+## Bugs
+Feel free to [open an issue](https://github.com/jfet97/strawberry/issues) or to email us at [andrysimo1997@gmail.com].
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, click [here](https://github.com/jfet97/strawberry/releases). 
+
+## Author
+
+* **Andrea Simone Costa** aka [jfet97](https://github.com/jfet97)
+
+See also the list of [contributors](https://github.com/jfet97/strawberry/graphs/contributors) who participated in this project.
+
 ## License
 
 MIT
