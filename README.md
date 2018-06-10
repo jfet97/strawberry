@@ -1,6 +1,8 @@
-# Strawberry CSS [![NPM version](https://img.shields.io/npm/v/strawberry-css.svg)](https://www.npmjs.com/package/strawberry-css) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jfet97/strawberry/blob/master/LICENSE)
-<br><br>
 <p align="center"><img alt="strawberry-css logo" src="img/logo-strawberry.png" width="600px"></p>
+<br><br>
+
+
+# Strawberry CSS [![NPM version](https://img.shields.io/npm/v/strawberry-css.svg)](https://www.npmjs.com/package/strawberry-css) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jfet97/strawberry/blob/master/LICENSE)
 
 
 <br><br>
