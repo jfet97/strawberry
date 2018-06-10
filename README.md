@@ -39,7 +39,7 @@ Feel free to [open an issue](https://github.com/jfet97/strawberry/issues) or to 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/jfet97/strawberry/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/jfet97/strawberry/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
