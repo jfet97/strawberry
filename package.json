@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/jfet97/strawberry/issues"
   },
-  "homepage": "https://github.com/jfet97/strawberry#readme"
+  "homepage": "https://github.com/jfet97/strawberry#readme",
+  "devDependencies": {}
 }

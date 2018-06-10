@@ -1,0 +1,79 @@
+@import ../../mixins/flexprimary-mixin
+    
+/*
+    * Flex Row */
+
+.sb-nested-flex-row-wrap
+    & > a,
+    & > div,
+    & > li,
+    & > ul
+        +flex-primary(row, wrap)
+
+.sb-nested-flex-row-nowrap
+    & > a,
+    & > div,
+    & > li,
+    & > u 
+        +flex-primary(row, nowrap)
+
+.sb-nested-flex-rev-row-wrap
+    & > a,
+    & > div,
+    & > li,
+    & > u 
+        +flex-primary(row-reverse, wrap)
+
+
+.sb-nested-flex-rev-row-nowrap
+    & > a,
+    & > div,
+    & > li,
+    & > ul
+        +flex-primary(row-reverse, nowrap)
+
+/* 
+    * Flex Column */
+.sb-nested-flex-col-wrap
+    & > a,
+    & > div,
+    & > li,
+    & > ul
+        +flex-primary(column, wrap)
+
+.sb-nested-flex-col-nowrap
+    & > a,
+    & > div,
+    & > li,
+    & > ul
+        +flex-primary(column, nowrap)
+    
+.sb-nested-flex-rev-col-wrap
+    & > a,
+    & > div,
+    & > li,
+    & > ul
+        +flex-primary(column-reverse, wrap)
+
+.sb-nested-flex-rev-col-nowrap
+    & > a,
+    & > div,
+    & > li,
+    & > ul
+        +flex-primary(column-reverse, nowrap)
+
+/*
+    * Flex Inline | Reverse Wrap */
+.sb-nested-flex-inline
+    & > a,
+    & > div,
+    & > li,
+    & > ul
+        display: inline-flex
+
+.sb-nested-flex-rev-wrap
+    & > a,
+    & > div,
+    & > li,
+    & > ul
+        flex-wrap: wrap-reverse

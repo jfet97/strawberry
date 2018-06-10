@@ -733,6 +733,72 @@ a.sb-ac-inherit, div.sb-ac-inherit, li.sb-ac-inherit, ul.sb-ac-inherit  {
 
 
 
+/* Set Flex Basis for an item */
+
+.sb-flex-basis-is-100-percent, .sb-flex-basis-is-a-hundred-percent {
+    flex-basis: 100%;
+}
+
+.sb-flex-basis-is-90-percent {
+    flex-basis: 90%;
+}
+
+.sb-flex-basis-is-80-percent {
+    flex-basis: 80%;
+}
+
+.sb-flex-basis-is-70-percent {
+    flex-basis: 70%;
+}
+
+.sb-flex-basis-is-60-percent {
+    flex-basis: 60%;
+}
+
+.sb-flex-basis-is-50-percent, .sb-flex-basis-a-half {
+    flex-basis: 50%;
+}
+
+.sb-flex-basis-is-40-percent {
+    flex-basis: 40%;
+}
+
+.sb-flex-basis-is-one-third {
+    flex-basis: 33.3333%;
+}
+
+.sb-flex-basis-is-30-percent {
+    flex-basis: 30%;
+}
+
+.sb-flex-basis-is-25-percent, .sb-flex-basis-is-a-quarter {
+    flex-basis: 25%;
+}
+
+.sb-flex-basis-is-20-percent, .sb-flex-basis-is-a-fifth {
+    flex-basis: 20%;
+}
+
+.sb-flex-basis-is-a-sixth {
+    flex-basis: 16.6666%;
+}
+
+.sb-flex-basis-is-a-seventh {
+    flex-basis: 14.2857%;
+}
+
+.sb-flex-basis-is-an-eighth {
+    flex-basis: 12.50%;
+}
+
+.sb-flex-basis-is-a-ninth {
+    flex-basis: 11.11%;
+}
+
+.sb-flex-basis-is-10-percent,  .sb-flex-basis-is-a-tenth {
+    flex-basis: 10%;
+}
+
 /* Set Flex Grow for an item*/
 
 .sb-flex-grow-0 {
