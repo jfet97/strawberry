@@ -5,7 +5,6 @@
 # Strawberry CSS [![NPM version](https://img.shields.io/npm/v/strawberry-css.svg)](https://www.npmjs.com/package/strawberry-css) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jfet97/strawberry/blob/master/LICENSE)
 
 
-<br><br>
 ## What
 
 Strawberry is a new flexbox based CSS micro-framework.
