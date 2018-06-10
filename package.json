@@ -1,6 +1,6 @@
 {
   "name": "strawberry-css",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "New flexbox based CSS micro-framework, a set of flexbox common utilities focused on make life easier and faster with nested flexbox",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/jfet97/strawberry/issues"
   },
-  "homepage": "https://github.com/jfet97/strawberry#readme"
+  "homepage": "https://github.com/jfet97/strawberry#readme",
+  "devDependencies": {}
 }

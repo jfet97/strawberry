@@ -1,0 +1,38 @@
+@import ../../data/fractions   
+@import ../../mixins/flexgrow-mixin
+@import ../../mixins/flexshrink-mixin
+@import ../../mixins/flexbasis-mixin
+
+
+/* 
+    * ------------------------------------
+    * Flex Grow - Flex Shrink - Flex Basis for a single Item
+    * ------------------------------------ */ 
+
+
+/* 
+    *
+    *
+    * Flex Grow */
+@for $i from 0 through 10 
+    .sb-flex-grow-#{$i}
+        +flex-grow(#{$i})
+/* 
+    *
+    *
+    * Flex Shrink */
+@for $i from 0 through 10 
+    .sb-flex-shrink-#{$i}
+        +flex-shrink(#{$i})
+/* 
+    *
+    *
+    * Flex Basis */
+@for $i from 10 through 1
+    .sb-flex-basis-#{$i * 10}
+        +flex-basis(#{$i * 10%})
+
+@each $name, $value in $fractions-map
+    .sb-flex-basis-#{$name}
+        +flex-basis(#{$value * 1%})
+
