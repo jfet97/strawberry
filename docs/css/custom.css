@@ -22,12 +22,24 @@ p {
 pre {
     white-space: pre-wrap;
     word-wrap: break-word;
+    max-width: 90%;
 }
 
 html {
     font-size: 16px;
     font-family: 'OpenSans', sans-serif;
     line-height: 1.5rem;
+}
+
+#logo {
+    height: 50vh;
+    margin-top: 10%;
+}
+
+@media all and (max-width: 650px) {
+    #logo {
+        margin-top: 50%;
+    }
 }
 
 
@@ -46,7 +58,7 @@ html {
 .logo-container h1 {
     text-align: center;
     font-family: 'Tajaval', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     color: #ffffff;
 }
 
