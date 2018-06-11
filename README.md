@@ -10,6 +10,7 @@
 Strawberry is a new flexbox based CSS micro-framework.
 A set of common flexbox's utilities focused on making your life easier and faster with nested flexboxes.
 
+> Have a look at the [website](https://jfet97.github.io/strawberry/)
 > Read about it [on Medium](https://medium.com/@andreasimonecosta/strawberry-a-new-flexbox-based-css-micro-framework-42ff9be49468).
 
 ## How
