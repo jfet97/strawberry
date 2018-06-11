@@ -15,8 +15,14 @@
 
 
 
+p {
+    text-align: center;
+}
 
-
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
 
 html {
     font-size: 16px;
