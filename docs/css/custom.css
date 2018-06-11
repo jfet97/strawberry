@@ -1,0 +1,136 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(opensans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(opensans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: Tajaval;
+    src: url(tajaval/Tajawal-ExtraBold.ttf);
+}
+
+
+
+
+
+
+html {
+    font-size: 16px;
+    font-family: 'OpenSans', sans-serif;
+    line-height: 1.5rem;
+}
+
+
+.logo-container {
+    height: 100vh;
+    background: linear-gradient(-17deg, #ef5350 0%, #6abf69 100%);
+    padding: 0 15%;
+}
+
+@media all and (max-width: 650px) {
+    .logo-container {
+        background: linear-gradient(-17deg, #ef5350 0%, #6abf69 100%);
+    }
+}
+
+.logo-container h1 {
+    text-align: center;
+    font-family: 'Tajaval', sans-serif;
+    font-size: 1.6em;
+    color: #ffffff;
+}
+
+@media all and (max-width: 650px) {
+    .logo-container h1 {
+        font-size: 1.2em;
+    }
+}
+
+
+.installation-container {
+    background: #ffffff;
+    height: 100vh;
+    padding: 0 15%;
+    color: #000000;
+}
+
+.installation-container h2 {
+    color: #6abf69;
+    font-family: 'Tajaval', sans-serif;
+}
+
+.installation-container pre {
+    background: #f6f8fa;
+    color: #24292e;
+    padding: 15px;
+}
+
+.features-container {
+    background-color: #f9f9f9;
+    height: 100vh;
+    padding: 0 15%;
+    color: #000000;
+}
+
+.features-container h2 {
+    color: #ef5350;
+    font-family: 'Tajaval', sans-serif;
+    margin: 55px 0;
+}
+
+
+.wiki-container {
+    background: #ffffff;
+    height: 100vh;
+    padding: 0 15%;
+    color: #000000;
+}
+
+.wiki-container h2 {
+    color: #6abf69;
+    font-family: 'Tajaval', sans-serif;
+}
+
+.wiki-container a {
+    text-decoration: none;
+    color: #ef5350;
+}
+
+.repo-container {
+    background-color: #f9f9f9;
+    height: 100vh;
+    padding: 0 15%;
+    color: #000000;
+}
+
+.repo-container h2 {
+    color: #ef5350;
+    font-family: 'Tajaval', sans-serif;
+    margin: 55px 0;
+}
+
+.repo-container a {
+    text-decoration: none;
+    color: #6abf69;
+}
+
+.contacts-container {
+    background: #ffffff;
+    height: 100vh;
+    padding: 0 15%;
+    color: #000000;
+}
+
+.contacts-container h2 {
+    color: #6abf69;
+    font-family: 'Tajaval', sans-serif;
+}
+
+.contacts-container a {
+    text-decoration: none;
+    color: #ef5350;
+}
