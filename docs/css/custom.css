@@ -58,7 +58,7 @@ html {
 
 @media all and (max-width: 650px) {
     .logo-container > div{
-        height: 40vh;
+        height: 50vh;
     }
 }
 
