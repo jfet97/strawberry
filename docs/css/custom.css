@@ -56,13 +56,6 @@ html {
     }
 }
 
-@media all and (max-width: 650px) {
-    .logo-container > div{
-        height: 50vh;
-    }
-}
-
-
 .installation-container {
     background: #ffffff;
     height: 100vh;
