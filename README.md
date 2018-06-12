@@ -49,7 +49,7 @@ Would you like to see a new feature added?
 2) Feel free to [open an issue](https://github.com/jfet97/strawberry/issues) or to email us at [andrysimo1997@gmail.com].
 
 ## Examples
-I'm working on them. Stay Tuned!
+I'm working (on them)[https://github.com/jfet97/strawberry/wiki/Examples]. Stay Tuned!
 
 ## Contributing
 
