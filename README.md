@@ -55,6 +55,10 @@ Please read [CONTRIBUTING.md](https://github.com/jfet97/strawberry/blob/master/C
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, click [here](https://github.com/jfet97/strawberry/releases). 
 
+## Slack
+Join [our channel!](
+https://join.slack.com/t/strawberrycss/shared_invite/enQtMzgwMTIwOTg0ODA1LTExYzM1ZDg4Y2NiZjcyMGNjY2Q1MTBhODQzODFkOTcyYTg5OThjMDRlYjQwNjRjMDgwMjkwNDU0YmYwZmFjZjU)
+
 ## Author
 
 * **Andrea Simone Costa** aka [jfet97](https://github.com/jfet97)
