@@ -1,0 +1,207 @@
+@import ../../data/breakpoints
+@import ../../data/fractions
+@import ../../mixins/flex-mixin
+
+/*
+    *
+    *
+    * Flex Responsive for items */ 
+    
+@media #{$l} 
+    
+    @for $i from 10 through 1    
+        .sb-1-1-#{$i * 10}-l
+            +flex(1, 1, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-1-1-#{$name}-l
+            +flex(1, 1, #{$value * 1%})
+
+@media #{$m} 
+
+    @for $i from 10 through 1    
+        .sb-1-1-#{$i * 10}-m
+            +flex(1, 1, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-1-1-#{$name}-m
+            +flex(1, 1, #{$value * 1%})
+
+@media #{$s} 
+    
+    @for $i from 10 through 1    
+        .sb-1-1-#{$i * 10}-s
+            +flex(1, 1, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-1-1-#{$name}-s
+            +flex(1, 1, #{$value * 1%})
+
+
+@media #{$l} 
+    
+    @for $i from 10 through 1    
+        .sb-0-1-#{$i * 10}-l
+            +flex(0, 1, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-0-1-#{$name}-l
+            +flex(0, 1, #{$value * 1%})
+
+@media #{$m} 
+
+    @for $i from 10 through 1    
+        .sb-0-1-#{$i * 10}-m
+            +flex(0, 1, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-0-1-#{$name}-m
+            +flex(0, 1, #{$value * 1%})
+
+@media #{$s} 
+    
+    @for $i from 10 through 1    
+        .sb-10-1-#{$i * 10}-s
+            +flex(0, 1, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-0-1-#{$name}-s
+            +flex(0, 1, #{$value * 1%})
+
+    
+@media #{$l} 
+    
+    @for $i from 10 through 1    
+        .sb-1-0-#{$i * 10}-l
+            +flex(1, 0, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-1-0-#{$name}-l
+            +flex(1, 0, #{$value * 1%})
+
+@media #{$m} 
+
+    @for $i from 10 through 1    
+        .sb-1-0-#{$i * 10}-m
+            +flex(1, 0, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-1-0-#{$name}-m
+            +flex(1, 0, #{$value * 1%})
+
+@media #{$s} 
+    
+    @for $i from 10 through 1    
+        .sb-1-0-#{$i * 10}-s
+            +flex(1, 0, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-1-0-#{$name}-s
+            +flex(1, 0, #{$value * 1%})
+
+
+@media #{$l} 
+    
+    @for $i from 10 through 1    
+        .sb-0-0-#{$i * 10}-l
+            +flex(0, 0, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-0-0-#{$name}-l
+            +flex(0, 0, #{$value * 1%})
+
+@media #{$m} 
+
+    @for $i from 10 through 1    
+        .sb-0-0-#{$i * 10}-m
+            +flex(0, 0, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-0-0-#{$name}-m
+            +flex(0, 0, #{$value * 1%})
+
+@media #{$s} 
+    
+    @for $i from 10 through 1    
+        .sb-0-0-#{$i * 10}-s
+            +flex(0, 0, #{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-0-0-#{$name}-s
+            +flex(0, 0, #{$value * 1%})
+
+
+/* 
+    *
+    *
+    * Flex Grow */
+
+@media #{$l} 
+    @for $i from 0 through 10 
+        .sb-flex-grow-#{$i}-l
+            +flex-grow(#{$i})
+
+@media #{$m} 
+    @for $i from 0 through 10 
+        .sb-flex-grow-#{$i}-m
+            +flex-grow(#{$i})
+
+@media #{$s} 
+    @for $i from 0 through 10 
+        .sb-flex-grow-#{$i}-s
+            +flex-grow(#{$i})
+
+/* 
+    *
+    *
+    * Flex Shrink */
+@media #{$l} 
+    @for $i from 0 through 10 
+        .sb-flex-shrink-#{$i}-l
+            +flex-shrink(#{$i})
+  
+@media #{$m}  
+    @for $i from 0 through 10 
+        .sb-flex-shrink-#{$i}-m
+            +flex-shrink(#{$i})
+
+@media #{$s} 
+    @for $i from 0 through 10 
+        .sb-flex-shrink-#{$i}-s
+            +flex-shrink(#{$i})
+/* 
+    *
+    *
+    * Flex Basis */
+@media #{$l}
+
+    @for $i from 10 through 1
+        .sb-flex-basis-#{$i * 10}-l
+            +flex-basis(#{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-flex-basis-#{$name}-l
+            +flex-basis(#{$value * 1%})
+
+@media #{$m}
+
+    @for $i from 10 through 1
+        .sb-flex-basis-#{$i * 10}-m
+            +flex-basis(#{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-flex-basis-#{$name}-m
+            +flex-basis(#{$value * 1%})
+
+@media #{$s}
+
+    @for $i from 10 through 1
+        .sb-flex-basis-#{$i * 10}-s
+            +flex-basis(#{$i * 10%})
+
+    @each $name, $value in $fractions-map
+        .sb-flex-basis-#{$name}-s
+            +flex-basis(#{$value * 1%})
+
+
+

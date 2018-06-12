@@ -13,11 +13,11 @@
     *
     * Flex Grow 1 Flex Shrink 1 */
 @for $i from 10 through 1 
-    .sb-each-item-#{$i * 10} > *
+    .sb-items-#{$i * 10} > *
         +flex(1, 1, #{$i * 10%})
 
 @each $name, $value in $fractions-map
-    .sb-each-item-#{$name} > *
+    .sb-items-#{$name} > *
         +flex(1, 1, #{$value * 1%})
 
 
@@ -27,11 +27,11 @@
     *
     * Flex Grow 0 Flex Shrink 1 */
 @for $i from 10 through 1 
-    .sb-each-item-#{$i * 10}-nog > *
+    .sb-items-#{$i * 10}-nog > *
         +flex(0, 1, #{$i * 10%})
 
 @each $name, $value in $fractions-map
-    .sb-each-item-#{$name}-nog > *
+    .sb-items-#{$name}-nog > *
         +flex(0, 1, #{$value * 1%})
 
 
@@ -40,11 +40,11 @@
     *
     * Flex Grow 1 Flex Shrink 0 */
 @for $i from 10 through 1 
-    .sb-each-item-#{$i * 10}-nos > *
+    .sb-items-#{$i * 10}-nos > *
         +flex(1, 0, #{$i * 10%})
 
 @each $name, $value in $fractions-map
-    .sb-each-item-#{$name}-nos > *
+    .sb-items-#{$name}-nos > *
         +flex(1, 0, #{$value * 1%})
 
 
@@ -54,11 +54,11 @@
     *
     * Flex Grow 0 Flex Shrink 0 */
 @for $i from 10 through 1 
-    .sb-each-item-#{$i * 10}-nogs > *
+    .sb-items-#{$i * 10}-nogs > *
         +flex(0, 0, #{$i * 10%})
 
 @each $name, $value in $fractions-map
-    .sb-each-item-#{$name}-nogs > *
+    .sb-items-#{$name}-nogs > *
         +flex(0, 0, #{$value * 1%})
 
 
