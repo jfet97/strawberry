@@ -2,7 +2,7 @@
 <br><br>
 
 
-# Strawberry CSS [![NPM version](https://img.shields.io/npm/v/strawberry-css.svg)](https://www.npmjs.com/package/strawberry-css) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jfet97/strawberry/blob/master/LICENSE)![](https://img.shields.io/github/stars/jfet97/strawberry.svg?style=social&label=Star)
+# Strawberry CSS [![NPM version](https://img.shields.io/npm/v/strawberry-css.svg)](https://www.npmjs.com/package/strawberry-css) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jfet97/strawberry/blob/master/LICENSE) ![](https://img.shields.io/github/stars/jfet97/strawberry.svg?style=social&label=Star)
 
 
 ## What
