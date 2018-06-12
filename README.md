@@ -47,7 +47,6 @@ Would you like to see a new feature added?
 1) Read and apply [these guidelines](https://github.com/jfet97/strawberry/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
 2) Feel free to [open an issue](https://github.com/jfet97/strawberry/issues) or to email us at [andrysimo1997@gmail.com].
 
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/jfet97/strawberry/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
