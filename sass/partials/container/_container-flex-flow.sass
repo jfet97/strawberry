@@ -1,39 +1,23 @@
+@import ../../data/breakpoints
 @import ../../mixins/flexprimary-mixin
     
 /*
     * Flex Row */
 
-.sb-flex-row-wrap 
-    +flex-primary(row, wrap)
+.sb-flex-row
+    +flex-primary(row)
 
-.sb-flex-row-nowrap 
-    +flex-primary(row, nowrap)  
-
-.sb-flex-rev-row-wrap
-    +flex-primary(row-reverse, wrap)
-
-.sb-flex-rev-row-nowrap
-    +flex-primary(row-reverse, nowrap)
-
-
+.sb-flex-rev-row
+    +flex-primary(row-reverse)
 
 /* 
     * Flex Column */
     
-.sb-flex-col-wrap
-    +flex-primary(column, wrap)
+.sb-flex-col
+    +flex-primary(column)
 
-.sb-flex-col-nowrap
-    +flex-primary(column, nowrap)
-    
-.sb-flex-rev-col-wrap 
-    +flex-primary(column-reverse, wrap)
-
-.sb-flex-rev-col-nowrap
-    +flex-primary(column-reverse, nowrap)
-
-
-
+.sb-flex-rev-col
+    +flex-primary(column-reverse)
 
 /* 
     * Flex Inline | Reverse Wrap */
@@ -41,6 +25,41 @@
 .sb-flex-inline
     display: inline-flex
 
-.sb-flex-rev-wrap
+.sb-wrap
+    flex-wrap: wrap
+
+.sb-rev-wrap
     flex-wrap: wrap-reverse
 
+.sb-nowrap
+    flex-wrap: nowrap
+
+@media #{$l}
+    .sb-wrap-l
+        flex-wrap: wrap
+
+    .sb-rev-wrap-l
+        flex-wrap: wrap-reverse
+
+    .sb-nowrap-l
+        flex-wrap: nowrap
+
+@media #{$m}
+    .sb-wrap-m
+        flex-wrap: wrap
+
+    .sb-rev-wrap-m
+        flex-wrap: wrap-reverse
+
+    .sb-nowrap-m
+        flex-wrap: nowrap
+
+@media #{$s}
+    .sb-wrap-s
+        flex-wrap: wrap
+
+    .sb-rev-wrap-s
+        flex-wrap: wrap-reverse
+
+    .sb-nowrap-s
+        flex-wrap: nowrap
