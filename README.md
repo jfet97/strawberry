@@ -65,6 +65,11 @@ https://join.slack.com/t/strawberrycss/shared_invite/enQtMzgwMTIwOTg0ODA1LTExYzM
 
 See also the list of [contributors](https://github.com/jfet97/strawberry/graphs/contributors) who participated in this project.
 
+## Contacts
+* andrysimo1997@gmail.com
+* [facebook](https://www.facebook.com/strawberrycss/)
+* [slack](https://join.slack.com/t/strawberrycss/shared_invite/enQtMzgwMTIwOTg0ODA1LTExYzM1ZDg4Y2NiZjcyMGNjY2Q1MTBhODQzODFkOTcyYTg5OThjMDRlYjQwNjRjMDgwMjkwNDU0YmYwZmFjZjU)
+
 ## License
 
 MIT
