@@ -8,402 +8,300 @@
 }
 
 /* Flex Row */
-.sb-nested-flex-row-wrap > a, .sb-nested-flex-row-wrap > div, .sb-nested-flex-row-wrap > li, .sb-nested-flex-row-wrap > ul {
+.sb-nested-flex-row-wrap > * {
   display: flex;
   flex-flow: row wrap;
 }
 
-.sb-nested-flex-row-nowrap > a, .sb-nested-flex-row-nowrap > div, .sb-nested-flex-row-nowrap > li, .sb-nested-flex-row-nowrap > u {
+.sb-nested-flex-row-nowrap > * {
   display: flex;
   flex-flow: row nowrap;
 }
 
-.sb-nested-flex-rev-row-wrap > a, .sb-nested-flex-rev-row-wrap > div, .sb-nested-flex-rev-row-wrap > li, .sb-nested-flex-rev-row-wrap > u {
+.sb-nested-flex-rev-row-wrap > * {
   display: flex;
   flex-flow: row-reverse wrap;
 }
 
-.sb-nested-flex-rev-row-nowrap > a, .sb-nested-flex-rev-row-nowrap > div, .sb-nested-flex-rev-row-nowrap > li, .sb-nested-flex-rev-row-nowrap > ul {
+.sb-nested-flex-rev-row-nowrap > * {
   display: flex;
   flex-flow: row-reverse nowrap;
 }
 
 /* Flex Column */
-.sb-nested-flex-col-wrap > a, .sb-nested-flex-col-wrap > div, .sb-nested-flex-col-wrap > li, .sb-nested-flex-col-wrap > ul {
+.sb-nested-flex-col-wrap > * {
   display: flex;
   flex-flow: column wrap;
 }
 
-.sb-nested-flex-col-nowrap > a, .sb-nested-flex-col-nowrap > div, .sb-nested-flex-col-nowrap > li, .sb-nested-flex-col-nowrap > ul {
+.sb-nested-flex-col-nowrap > * {
   display: flex;
   flex-flow: column nowrap;
 }
 
-.sb-nested-flex-rev-col-wrap > a, .sb-nested-flex-rev-col-wrap > div, .sb-nested-flex-rev-col-wrap > li, .sb-nested-flex-rev-col-wrap > ul {
+.sb-nested-flex-rev-col-wrap > * {
   display: flex;
   flex-flow: column-reverse wrap;
 }
 
-.sb-nested-flex-rev-col-nowrap > a, .sb-nested-flex-rev-col-nowrap > div, .sb-nested-flex-rev-col-nowrap > li, .sb-nested-flex-rev-col-nowrap > ul {
+.sb-nested-flex-rev-col-nowrap > * {
   display: flex;
   flex-flow: column-reverse nowrap;
 }
 
 /* Flex Inline | Reverse Wrap */
-.sb-nested-flex-inline > a, .sb-nested-flex-inline > div, .sb-nested-flex-inline > li, .sb-nested-flex-inline > ul {
+.sb-nested-flex-inline > * {
   display: inline-flex;
 }
 
-.sb-nested-flex-rev-wrap > a, .sb-nested-flex-rev-wrap > div, .sb-nested-flex-rev-wrap > li, .sb-nested-flex-rev-wrap > ul {
+.sb-nested-flex-rev-wrap > * {
   flex-wrap: wrap-reverse;
 }
 
 /* All Centered */
-.sb-nested-all-is-centered > a,
-.sb-nested-all-is-centered > div,
-.sb-nested-all-is-centered > li,
-.sb-nested-all-is-centered > ul {
+.sb-nested-all-is-centered > * {
   justify-content: center;
   align-items: center;
   align-content: center;
 }
 
 /* Align Item */
-.sb-nested-ai-stretch > a, .sb-nested-ai-stretch > div, .sb-nested-ai-stretch > li, .sb-nested-ai-stretch > ul {
+.sb-nested-ai-stretch > * {
   align-items: stretch;
 }
 
-.sb-nested-ai-center > a, .sb-nested-ai-center > div, .sb-nested-ai-center > li, .sb-nested-ai-center > ul {
+.sb-nested-ai-center > * {
   align-items: center;
 }
 
-.sb-nested-ai-flex-start > a, .sb-nested-ai-flex-start > div, .sb-nested-ai-flex-start > li, .sb-nested-ai-flex-start > ul {
+.sb-nested-ai-flex-start > * {
   align-items: flex-start;
 }
 
-.sb-nested-ai-flex-end > a, .sb-nested-ai-flex-end > div, .sb-nested-ai-flex-end > li, .sb-nested-ai-flex-end > ul {
+.sb-nested-ai-flex-end > * {
   align-items: flex-end;
 }
 
-.sb-nested-ai-baseline > a, .sb-nested-ai-baseline > div, .sb-nested-ai-baseline > li, .sb-nested-ai-baseline > ul {
+.sb-nested-ai-baseline > * {
   align-items: baseline;
 }
 
-.sb-nested-ai-initial > a, .sb-nested-ai-initial > div, .sb-nested-ai-initial > li, .sb-nested-ai-initial > ul {
+.sb-nested-ai-initial > * {
   align-items: initial;
 }
 
-.sb-nested-ai-inherit > a, .sb-nested-ai-inherit > div, .sb-nested-ai-inherit > li, .sb-nested-ai-inherit > ul {
+.sb-nested-ai-inherit > * {
   align-items: inherit;
 }
 
 /* Align Content */
-.sb-nested-ac-stretch > a, .sb-nested-ac-stretch > div, .sb-nested-ac-stretch > li, .sb-nested-ac-stretch > ul {
+.sb-nested-ac-stretch > * {
   align-content: stretch;
 }
 
-.sb-nested-ac-center > a, .sb-nested-ac-center > div, .sb-nested-ac-center > li, .sb-nested-ac-center > ul {
+.sb-nested-ac-center > * {
   align-content: center;
 }
 
-.sb-nested-ac-flex-start > a, .sb-nested-ac-flex-start > div, .sb-nested-ac-flex-start > li, .sb-nested-ac-flex-start > ul {
+.sb-nested-ac-flex-start > * {
   align-content: flex-start;
 }
 
-.sb-nested-ac-flex-end > a, .sb-nested-ac-flex-end > div, .sb-nested-ac-flex-end > li, .sb-nested-ac-flex-end > ul {
+.sb-nested-ac-flex-end > * {
   align-content: flex-end;
 }
 
-.sb-nested-ac-space-bn > a, .sb-nested-ac-space-bn > div, .sb-nested-ac-space-bn > li, .sb-nested-ac-space-bn > ul {
+.sb-nested-ac-space-bn > * {
   align-content: space-between;
 }
 
-.sb-nested-ac-space-ad > a, .sb-nested-ac-space-ad > div, .sb-nested-ac-space-ad > li, .sb-nested-ac-space-ad > ul {
+.sb-nested-ac-space-ad > * {
   align-content: space-around;
 }
 
-.sb-nested-ac-initial > a, .sb-nested-ac-initial > div, .sb-nested-ac-initial > li, .sb-nested-ac-initial > ul {
+.sb-nested-ac-initial > * {
   align-content: initial;
 }
 
-.sb-nested-ac-inherit > a, .sb-nested-ac-inherit > div, .sb-nested-ac-inherit > li, .sb-nested-ac-inherit > ul {
+.sb-nested-ac-inherit > * {
   align-content: inherit;
 }
 
 /* Justify Content */
-.sb-nested-jc-flex-start > a, .sb-nested-jc-flex-start > div, .sb-nested-jc-flex-start > li, .sb-nested-jc-flex-start > ul {
+.sb-nested-jc-flex-start > * {
   justify-content: flex-start;
 }
 
-.sb-nested-jc-flex-end > a, .sb-nested-jc-flex-end > div, .sb-nested-jc-flex-end > li, .sb-nested-jc-flex-end > ul {
+.sb-nested-jc-flex-end > * {
   justify-content: flex-end;
 }
 
-.sb-nested-jc-center > a, .sb-nested-jc-center > div, .sb-nested-jc-center > li, .sb-nested-jc-center > ul {
+.sb-nested-jc-center > * {
   justify-content: center;
 }
 
-.sb-nested-jc-space-bn > a, .sb-nested-jc-space-bn > div, .sb-nested-jc-space-bn > li, .sb-nested-jc-space-bn > ul {
+.sb-nested-jc-space-bn > * {
   justify-content: space-between;
 }
 
-.sb-nested-jc-space-ad > a, .sb-nested-jc-space-ad > div, .sb-nested-jc-space-ad > li, .sb-nested-jc-space-ad > ul {
+.sb-nested-jc-space-ad > * {
   justify-content: space-around;
 }
 
-.sb-nested-jc-initial > a, .sb-nested-jc-initial > div, .sb-nested-jc-initial > li, .sb-nested-jc-initial > ul {
+.sb-nested-jc-initial > * {
   justify-content: initial;
 }
 
-.sb-nested-jc-inherit > a, .sb-nested-jc-inherit > div, .sb-nested-jc-inherit > li, .sb-nested-jc-inherit > ul {
+.sb-nested-jc-inherit > * {
   justify-content: inherit;
 }
 
 /* Flex Row */
-a.sb-flex-row-wrap,
-div.sb-flex-row-wrap,
-li.sb-flex-row-wrap,
-ul.sb-flex-row-wrap {
+.sb-flex-row-wrap {
   display: flex;
   flex-flow: row wrap;
 }
 
-a.sb-flex-row-nowrap,
-div.sb-flex-row-nowrap,
-li.sb-flex-row-nowrap,
-ul.sb-flex-row-nowrap {
+.sb-flex-row-nowrap {
   display: flex;
   flex-flow: row nowrap;
 }
 
-a.sb-flex-rev-row-wrap,
-div.sb-flex-rev-row-wrap,
-li.sb-flex-rev-row-wrap,
-ul.sb-flex-rev-row-wrap {
+.sb-flex-rev-row-wrap {
   display: flex;
   flex-flow: row-reverse wrap;
 }
 
-a.sb-flex-rev-row-nowrap,
-div.sb-flex-rev-row-nowrap,
-li.sb-flex-rev-row-nowrap,
-ul.sb-flex-rev-row-nowrap {
+.sb-flex-rev-row-nowrap {
   display: flex;
   flex-flow: row-reverse nowrap;
 }
 
 /* Flex Column */
-a.sb-flex-col-wrap,
-div.sb-flex-col-wrap,
-li.sb-flex-col-wrap,
-ul.sb-flex-col-wrap {
+.sb-flex-col-wrap {
   display: flex;
   flex-flow: column wrap;
 }
 
-a.sb-flex-col-nowrap,
-div.sb-flex-col-nowrap,
-li.sb-flex-col-nowrap,
-ul.sb-flex-col-nowrap {
+.sb-flex-col-nowrap {
   display: flex;
   flex-flow: column nowrap;
 }
 
-a.sb-flex-rev-col-wrap,
-div.sb-flex-rev-col-wrap,
-li.sb-flex-rev-col-wrap,
-ul.sb-flex-rev-col-wrap {
+.sb-flex-rev-col-wrap {
   display: flex;
   flex-flow: column-reverse wrap;
 }
 
-a.sb-flex-rev-col-nowrap,
-div.sb-flex-rev-col-nowrap,
-li.sb-flex-rev-col-nowrap,
-ul.sb-flex-rev-col-nowrap {
+.sb-flex-rev-col-nowrap {
   display: flex;
   flex-flow: column-reverse nowrap;
 }
 
 /* Flex Inline | Reverse Wrap */
-a.sb-flex-inline,
-div.sb-flex-inline,
-li.sb-flex-inline,
-ul.sb-flex-inline {
+.sb-flex-inline {
   display: inline-flex;
 }
 
-a.sb-flex-rev-wrap,
-div.sb-flex-rev-wrap,
-li.sb-flex-rev-wrap,
-ul.sb-flex-rev-wrap {
+.sb-flex-rev-wrap {
   flex-wrap: wrap-reverse;
 }
 
 /* All Centered */
-a.sb-all-is-centered,
-div.sb-all-is-centered,
-li.sb-all-is-centered,
-ul.sb-all-is-centered {
+.sb-all-is-centered {
   justify-content: center;
   align-items: center;
   align-content: center;
 }
 
 /* Align Item */
-a.sb-ai-stretch,
-div.sb-ai-stretch,
-li.sb-ai-stretch,
-ul.sb-ai-stretch {
+.sb-ai-stretch {
   align-items: stretch;
 }
 
-a.sb-ai-center,
-div.sb-ai-center,
-li.sb-ai-center,
-ul.sb-ai-center {
+.sb-ai-center {
   align-items: center;
 }
 
-a.sb-ai-flex-start,
-div.sb-ai-flex-start,
-li.sb-ai-flex-start,
-ul.sb-ai-flex-start {
+.sb-ai-flex-start {
   align-items: flex-start;
 }
 
-a.sb-ai-flex-end,
-div.sb-ai-flex-end,
-li.sb-ai-flex-end,
-ul.sb-ai-flex-end {
+.sb-ai-flex-end {
   align-items: flex-end;
 }
 
-a.sb-ai-baseline,
-div.sb-ai-baseline,
-li.sb-ai-baseline,
-ul.sb-ai-baseline {
+.sb-ai-baseline {
   align-items: baseline;
 }
 
-a.sb-ai-initial,
-div.sb-ai-initial,
-li.sb-ai-initial,
-ul.sb-ai-initial {
+.sb-ai-initial {
   align-items: initial;
 }
 
-a.sb-ai-inherit,
-div.sb-ai-inherit,
-li.sb-ai-inherit,
-ul.sb-ai-inherit {
+.sb-ai-inherit {
   align-items: inherit;
 }
 
 /* Align Content */
-a.sb-ac-stretch,
-div.sb-ac-stretch,
-li.sb-ac-stretch,
-ul.sb-ac-stretch {
+.sb-ac-stretch {
   align-content: stretch;
 }
 
-a.sb-ac-center,
-div.sb-ac-center,
-li.sb-ac-center,
-ul.sb-ac-center {
+.sb-ac-center {
   align-content: center;
 }
 
-a.sb-ac-flex-start,
-div.sb-ac-flex-start,
-li.sb-ac-flex-start,
-ul.sb-ac-flex-start {
+.sb-ac-flex-start {
   align-content: flex-start;
 }
 
-a.sb-ac-flex-end,
-div.sb-ac-flex-end,
-li.sb-ac-flex-end,
-ul.sb-ac-flex-end {
+.sb-ac-flex-end {
   align-content: flex-end;
 }
 
-a.sb-ac-space-bn,
-div.sb-ac-space-bn,
-li.sb-ac-space-bn,
-ul.sb-ac-space-bn {
+.sb-ac-space-bn {
   align-content: space-between;
 }
 
-a.sb-ac-space-ad,
-div.sb-ac-space-ad,
-li.sb-ac-space-ad,
-ul.sb-ac-space-ad {
+.sb-ac-space-ad {
   align-content: space-around;
 }
 
-a.sb-ac-initial,
-div.sb-ac-initial,
-li.sb-ac-initial,
-ul.sb-ac-initial {
+.sb-ac-initial {
   align-content: initial;
 }
 
-a.sb-ac-inherit,
-div.sb-ac-inherit,
-li.sb-ac-inherit,
-ul.sb-ac-inherit {
+.sb-ac-inherit {
   align-content: inherit;
 }
 
 /* Justify Content */
-a.sb-jc-flex-start,
-div.sb-jc-flex-start,
-li.sb-jc-flex-start,
-ul.sb-jc-flex-start {
+.sb-jc-flex-start {
   justify-content: flex-start;
 }
 
-a.sb-jc-flex-end,
-div.sb-jc-flex-end,
-li.sb-jc-flex-end,
-ul.sb-jc-flex-end {
+.sb-jc-flex-end {
   justify-content: flex-end;
 }
 
-a.sb-jc-center,
-div.sb-jc-center,
-li.sb-jc-center,
-ul.sb-jc-center {
+.sb-jc-center {
   justify-content: center;
 }
 
-a.sb-jc-space-bn,
-div.sb-jc-space-bn,
-li.sb-jc-space-bn,
-ul.sb-jc-space-bn {
+.sb-jc-space-bn {
   justify-content: space-between;
 }
 
-a.sb-jc-space-ad,
-div.sb-jc-space-ad,
-li.sb-jc-space-ad,
-ul.sb--jc-space-ad {
+.sb-jc-space-ad {
   justify-content: space-around;
 }
 
-a.sb-jc-initial,
-div.sb-jc-initial,
-li.sb--jc-initial,
-ul.sb-jc-initial {
+.sb-jc-initial {
   justify-content: initial;
 }
 
-a.sb-jc-inherit,
-div.sb-jc-inherit,
-li.sb-jc-inherit,
-ul.sb-jc-inherit {
+.sb-jc-inherit {
   justify-content: inherit;
 }
 

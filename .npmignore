@@ -1,3 +1,6 @@
 src/strawberry.css
-src/optionalreset.css
 img/*
+dist/*
+sass/strawberry.css.map
+sass/strawberry.min.css.map
+sass/.sass-cache
