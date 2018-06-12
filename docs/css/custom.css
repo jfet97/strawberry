@@ -134,8 +134,28 @@ html {
     color: #6abf69;
 }
 
+
+.examples-container {
+    background-color: #ffffff;
+    height: 100vh;
+    padding: 0 15%;
+    color: #000000;
+}
+
+.examples-container h2 {
+    color: #6abf69;
+    font-family: 'Tajaval', sans-serif;
+    margin: 55px 0;
+}
+
+.examples-container a {
+    text-decoration: none;
+    color: #ef5350;
+}
+
+
 .contacts-container {
-    background: #ffffff;
+    background: #f9f9f9;
     height: 100vh;
     padding: 0 15%;
     color: #000000;
