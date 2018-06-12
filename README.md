@@ -2,7 +2,8 @@
 <br><br>
 
 
-# Strawberry CSS [![NPM version](https://img.shields.io/npm/v/strawberry-css.svg)](https://www.npmjs.com/package/strawberry-css) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jfet97/strawberry/blob/master/LICENSE) ![](https://img.shields.io/github/stars/jfet97/strawberry.svg?style=social&label=Star)
+# Strawberry CSS [![NPM version](https://img.shields.io/npm/v/strawberry-css.svg)](https://www.npmjs.com/package/strawberry-css) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jfet97/strawberry/blob/master/LICENSE)
+![](https://img.shields.io/github/stars/jfet97/strawberry.svg?style=social&label=Star)
 
 
 ## What
@@ -28,7 +29,7 @@ or
 
 ## Why
 
-1. It's light: less than 8Kb
+1. It's light: less than 18Kb
 2. It’s powerful: create Flexbox-based layouts in few lines of code
 3. No preset graphic style: it helps you create layouts without messing up your life
 4. No conflicts with other used framework in the same project: all classes start with the sb- prefix
@@ -46,6 +47,9 @@ Have you found something wrong?
 Would you like to see a new feature added?
 1) Read and apply [these guidelines](https://github.com/jfet97/strawberry/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
 2) Feel free to [open an issue](https://github.com/jfet97/strawberry/issues) or to email us at [andrysimo1997@gmail.com].
+
+## Features
+I'm working on them. Stay Tuned!
 
 ## Contributing
 
