@@ -1,6 +1,6 @@
 {
   "name": "strawberry-css",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "New flexbox based CSS micro-framework, a set of flexbox common utilities focused on make life easier and faster with nested flexbox",
   "main": "index.js",
   "scripts": {
