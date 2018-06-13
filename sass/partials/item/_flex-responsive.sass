@@ -16,6 +16,9 @@
     @each $name, $value in $fractions-map
         .sb-1-1-#{$name}-l
             +flex(1, 1, #{$value * 1%})
+    
+    .sb-1-1-auto-l
+        +flex(1, 1, auto)
 
 @media #{$m} 
 
@@ -26,6 +29,9 @@
     @each $name, $value in $fractions-map
         .sb-1-1-#{$name}-m
             +flex(1, 1, #{$value * 1%})
+    
+    .sb-1-1-auto-m
+        +flex(1, 1, auto)
 
 @media #{$s} 
     
@@ -36,6 +42,9 @@
     @each $name, $value in $fractions-map
         .sb-1-1-#{$name}-s
             +flex(1, 1, #{$value * 1%})
+
+    .sb-1-1-auto-s
+        +flex(1, 1, auto)
 
 
 @media #{$l} 
@@ -48,6 +57,9 @@
         .sb-0-1-#{$name}-l
             +flex(0, 1, #{$value * 1%})
 
+    .sb-0-1-auto-l
+        +flex(0, 1, auto)
+
 @media #{$m} 
 
     @for $i from 10 through 1    
@@ -57,6 +69,9 @@
     @each $name, $value in $fractions-map
         .sb-0-1-#{$name}-m
             +flex(0, 1, #{$value * 1%})
+
+    .sb-0-1-auto-m
+        +flex(0, 1, auto)
 
 @media #{$s} 
     
@@ -68,6 +83,8 @@
         .sb-0-1-#{$name}-s
             +flex(0, 1, #{$value * 1%})
 
+    .sb-0-1-auto-s
+        +flex(0, 1, auto)
     
 @media #{$l} 
     
@@ -79,6 +96,9 @@
         .sb-1-0-#{$name}-l
             +flex(1, 0, #{$value * 1%})
 
+    .sb-1-0-auto-l
+        +flex(1, 0, auto)
+
 @media #{$m} 
 
     @for $i from 10 through 1    
@@ -88,6 +108,9 @@
     @each $name, $value in $fractions-map
         .sb-1-0-#{$name}-m
             +flex(1, 0, #{$value * 1%})
+    
+    .sb-1-0-auto-m
+        +flex(1, 0, auto)
 
 @media #{$s} 
     
@@ -98,6 +121,9 @@
     @each $name, $value in $fractions-map
         .sb-1-0-#{$name}-s
             +flex(1, 0, #{$value * 1%})
+
+    .sb-1-0-auto-s
+        +flex(1, 0, auto)
 
 
 @media #{$l} 
@@ -110,6 +136,9 @@
         .sb-0-0-#{$name}-l
             +flex(0, 0, #{$value * 1%})
 
+    .sb-0-0-auto-l
+        +flex(0, 0, auto)
+
 @media #{$m} 
 
     @for $i from 10 through 1    
@@ -120,6 +149,9 @@
         .sb-0-0-#{$name}-m
             +flex(0, 0, #{$value * 1%})
 
+    .sb-0-0-auto-m
+        +flex(0, 0, auto)
+
 @media #{$s} 
     
     @for $i from 10 through 1    
@@ -129,6 +161,9 @@
     @each $name, $value in $fractions-map
         .sb-0-0-#{$name}-s
             +flex(0, 0, #{$value * 1%})
+
+    .sb-0-0-auto-s
+        +flex(0, 0, auto)
 
 
 /* 
@@ -182,6 +217,9 @@
     @each $name, $value in $fractions-map
         .sb-flex-basis-#{$name}-l
             +flex-basis(#{$value * 1%})
+    
+    .sb-flex-basis-auto-l
+        +flex-basis(auto)
 
 @media #{$m}
 
@@ -193,6 +231,9 @@
         .sb-flex-basis-#{$name}-m
             +flex-basis(#{$value * 1%})
 
+    .sb-flex-basis-auto-m
+        +flex-basis(auto)
+
 @media #{$s}
 
     @for $i from 10 through 1
@@ -202,6 +243,9 @@
     @each $name, $value in $fractions-map
         .sb-flex-basis-#{$name}-s
             +flex-basis(#{$value * 1%})
+
+    .sb-flex-basis-auto-s
+        +flex-basis(auto)
 
 
 
