@@ -12,16 +12,104 @@
 
 <body>
 
-  <div class="wrapper sb-flex-col-s"> <!-- Wrapper Flexbox Column actived only from 0px to 600px-->
+  <!-- As you can see all flexbox work is done by Strawberry; here there is only some style for elements -->
+  <style>
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    @font-face {
+      font-family: OpenSans;
+      src: url(opensans/OpenSans-Regular.ttf);
+    }
+
+    @font-face {
+      font-family: Tajaval;
+      src: url(tajaval/Tajawal-Bold.ttf);
+    }
+
+    html {
+      font-size: 16px;
+      font-family: 'OpenSans', sans-serif;
+      line-height: 1.5rem;
+      background-image: linear-gradient(-17deg, #ef5350 0%, #6abf69 100%);
+    }
+
+    .top h1 {
+      font-family: 'Tajaval', sans-serif;
+      font-size: 4rem;
+      margin: 40px 0;
+      color: white;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      background: #6abf69;
+      border: 2px solid #388e3c
+    }
+
+    a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 10px 5px;
+      text-align: center;
+    }
+
+    a:hover {
+      background: #388e3c;
+    }
+
+    .open {
+      display: none;
+    }
+
+    @media all and (min-width:992px) {
+      .toggleNav {
+        display: none;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .wrapper {
+      min-height: 100vh;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    input {
+      padding: 10px;
+      border: 0;
+    }
+
+    section,
+    footer {
+      text-align: center;
+      background: #6abf69;
+      border: 2px solid #388e3c;
+      padding: 20px;
+      margin: 20px 0;
+      color: white;
+    }
+  </style>
+
+  <div class="wrapper sb-flex-col-s">
+    <!-- Wrapper Flexbox Column actived only from 0px to 600px-->
 
     <header class="top sb-order-1-s">
       <h1>Strawberry</h1>
     </header>
 
-
-
-
-    <nav class="flex-nav sb-order-0-s"> <!-- Here like navbar example -->
+    <nav class="flex-nav sb-order-0-s">
+      <!-- Here like navbar example -->
       <a href="#" class="toggleNav">☰ Menu</a>
       <ul class="sb-flex-row sb-wrap sb-nowrap-l" id="toggleUl">
         <li class="sb-flex-basis-100-s sb-flex-basis-50-m sb-flex-grow-3-l">
