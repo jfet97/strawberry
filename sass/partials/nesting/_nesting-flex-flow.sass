@@ -21,11 +21,63 @@
 .sb-n-flex-rev-col > *
     +flex-primary(column-reverse)
 
-
 /*
-    * Flex Inline | Reverse Wrap */
+    * Flex Inline */
+        
 .sb-n-flex-inline > *
     display: inline-flex
+
+
+@media #{$l}
+    .sb-n-flex-row-l
+        +flex-primary(row)
+
+    .sb-n-flex-rev-row-l
+        +flex-primary(row-reverse)
+    
+    .sb-n-flex-col-l
+        +flex-primary(column)
+
+    .sb-n-flex-rev-col-l
+        +flex-primary(column-reverse)
+
+    .sb-n-flex-inline-l
+        display: inline-flex
+
+@media #{$m}
+    .sb-n-flex-row-m
+        +flex-primary(row)
+
+    .sb-n-flex-rev-row-m
+        +flex-primary(row-reverse)
+    
+    .sb-n-flex-col-m
+        +flex-primary(column)
+
+    .sb-n-flex-rev-col-m
+        +flex-primary(column-reverse)
+
+    .sb-n-flex-inline-m
+        display: inline-flex
+
+@media #{$s}
+    .sb-n-flex-row-s
+        +flex-primary(row)
+
+    .sb-n-flex-rev-row-s
+        +flex-primary(row-reverse)
+    
+    .sb-n-flex-col-s
+        +flex-primary(column)
+
+    .sb-n-flex-rev-col-s
+        +flex-primary(column-reverse)
+
+    .sb-n-flex-inline-s
+        display: inline-flex
+
+/*  
+    * Reverse Wrap */
 
 .sb-n-wrap > *
     flex-wrap: wrap

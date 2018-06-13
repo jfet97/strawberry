@@ -20,10 +20,62 @@
     +flex-primary(column-reverse)
 
 /* 
-    * Flex Inline | Reverse Wrap */
+    * Flex Inline */
 
 .sb-flex-inline
     display: inline-flex
+
+
+@media #{$l}
+    .sb-flex-row-l
+        +flex-primary(row)
+
+    .sb-flex-rev-row-l
+        +flex-primary(row-reverse)
+    
+    .sb-flex-col-l
+        +flex-primary(column)
+
+    .sb-flex-rev-col-l
+        +flex-primary(column-reverse)
+
+    .sb-flex-inline-l
+        display: inline-flex
+
+@media #{$m}
+    .sb-flex-row-m
+        +flex-primary(row)
+
+    .sb-flex-rev-row-m
+        +flex-primary(row-reverse)
+    
+    .sb-flex-col-m
+        +flex-primary(column)
+
+    .sb-flex-rev-col-m
+        +flex-primary(column-reverse)
+
+    .sb-flex-inline-m
+        display: inline-flex
+
+@media #{$s}
+    .sb-flex-row-s
+        +flex-primary(row)
+
+    .sb-flex-rev-row-s
+        +flex-primary(row-reverse)
+    
+    .sb-flex-col-s
+        +flex-primary(column)
+
+    .sb-flex-rev-col-s
+        +flex-primary(column-reverse)
+
+    .sb-flex-inline-s
+        display: inline-flex
+
+/*  
+    * Wrap */
 
 .sb-wrap
     flex-wrap: wrap
