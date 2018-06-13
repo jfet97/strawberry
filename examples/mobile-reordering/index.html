@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FlexBox Nav</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/d94c38460d.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/strawberry-css/dist/strawberry.min.css">
+  <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+
+  <div class="wrapper sb-flex-col-s"> <!-- Wrapper Flexbox Column actived only from 0px to 600px-->
+
+    <header class="top sb-order-1-s">
+      <h1>Strawberry</h1>
+    </header>
+
+
+
+
+    <nav class="flex-nav sb-order-0-s"> <!-- Here like navbar example -->
+      <a href="#" class="toggleNav">☰ Menu</a>
+      <ul class="sb-flex-row sb-wrap sb-nowrap-l open" id="toggleUl">
+        <li class="sb-flex-basis-100-s sb-flex-basis-50-m sb-flex-grow-3-l">
+          <a href="#">Link 1</a>
+        </li>
+        <li class="sb-flex-basis-100-s sb-flex-basis-50-m sb-flex-grow-3-l">
+          <a href="#">Link 2</a>
+        </li>
+        <li class="sb-flex-basis-100-s sb-flex-basis-50-m sb-flex-grow-3-l">
+          <a href="#">Link 3</a>
+        </li>
+        <li class="sb-flex-basis-100-s sb-flex-basis-50-m sb-flex-grow-3-l">
+          <a href="#">Link 4</a>
+        </li>
+        <li class="sb-flex-basis-100-s sb-flex-basis-50-m sb-flex-grow-3-l">
+          <a href="#">Link 5</a>
+        </li>
+        <li class="sb-flex-basis-100-s sb-flex-basis-50-m sb-flex-grow-3-l">
+          <a href="#">Link 6</a>
+        </li>
+
+        <li class="sb-flex-basis-50-s sb-flex-basis-quarter-m sb-flex-grow-1-l">
+          <a href="http://github.com/">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+        <li class="sb-flex-basis-50-s sb-flex-basis-quarter-m sb-flex-grow-1-l">
+          <a href="http://facebook.com/">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li class="sb-flex-basis-50-s sb-flex-basis-quarter-m sb-flex-grow-1-l">
+          <a href="http://instagram.com/">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+        <li class="sb-flex-basis-50-s sb-flex-basis-quarter-m sb-flex-grow-1-l">
+          <a href="http://twitter.com/">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="hero sb-order-4-s">
+      <img src="https://source.unsplash.com/1000x600">
+    </section>
+
+    <section class="details sb-order-2-s">
+      <p>A great Framework!</p>
+      <p>It is so powerful.</p>
+    </section>
+
+    <section class="signup sb-order-3-s">
+      <form action="" class="signup">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="submit" value="Sign up!">
+      </form>
+    </section>
+
+    <footer class="sb-last-item">
+      <p>&copy; Strawberry</p>
+    </footer>
+
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+
+    $(function () {
+      $('.toggleNav').on('click', function () {
+        $('#toggleUl').toggleClass('open');
+      });
+    });
+
+  </script>
+</body>
+
+</html>
