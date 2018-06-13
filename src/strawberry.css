@@ -366,7 +366,189 @@
   justify-content: inherit;
 }
 
+/* 0 - 599 => small s
+ * 600 - 999 => medium m
+ * 1000 - ... => large l */
 /* Order */
+.sb-order-0 {
+  order: 0;
+}
+
+.sb-order-1 {
+  order: 1;
+}
+
+.sb-order-2 {
+  order: 2;
+}
+
+.sb-order-3 {
+  order: 3;
+}
+
+.sb-order-4 {
+  order: 4;
+}
+
+.sb-order-5 {
+  order: 5;
+}
+
+.sb-order-6 {
+  order: 6;
+}
+
+.sb-order-7 {
+  order: 7;
+}
+
+.sb-order-8 {
+  order: 8;
+}
+
+.sb-order-9 {
+  order: 9;
+}
+
+.sb-order-10 {
+  order: 10;
+}
+
+@media only screen and (min-width: 1000px) {
+  .sb-order-0-l {
+    order: 0;
+  }
+
+  .sb-order-1-l {
+    order: 1;
+  }
+
+  .sb-order-2-l {
+    order: 2;
+  }
+
+  .sb-order-3-l {
+    order: 3;
+  }
+
+  .sb-order-4-l {
+    order: 4;
+  }
+
+  .sb-order-5-l {
+    order: 5;
+  }
+
+  .sb-order-6-l {
+    order: 6;
+  }
+
+  .sb-order-7-l {
+    order: 7;
+  }
+
+  .sb-order-8-l {
+    order: 8;
+  }
+
+  .sb-order-9-l {
+    order: 9;
+  }
+
+  .sb-order-10-l {
+    order: 10;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+  .sb-order-0-m {
+    order: 0;
+  }
+
+  .sb-order-1-m {
+    order: 1;
+  }
+
+  .sb-order-2-m {
+    order: 2;
+  }
+
+  .sb-order-3-m {
+    order: 3;
+  }
+
+  .sb-order-4-m {
+    order: 4;
+  }
+
+  .sb-order-5-m {
+    order: 5;
+  }
+
+  .sb-order-6-m {
+    order: 6;
+  }
+
+  .sb-order-7-m {
+    order: 7;
+  }
+
+  .sb-order-8-m {
+    order: 8;
+  }
+
+  .sb-order-9-m {
+    order: 9;
+  }
+
+  .sb-order-10-m {
+    order: 10;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .sb-order-0-s {
+    order: 0;
+  }
+
+  .sb-order-1-s {
+    order: 1;
+  }
+
+  .sb-order-2-s {
+    order: 2;
+  }
+
+  .sb-order-3-s {
+    order: 3;
+  }
+
+  .sb-order-4-s {
+    order: 4;
+  }
+
+  .sb-order-5-s {
+    order: 5;
+  }
+
+  .sb-order-6-s {
+    order: 6;
+  }
+
+  .sb-order-7-s {
+    order: 7;
+  }
+
+  .sb-order-8-s {
+    order: 8;
+  }
+
+  .sb-order-9-s {
+    order: 9;
+  }
+
+  .sb-order-10-s {
+    order: 10;
+  }
+}
 .sb-first-item {
   order: -1000000;
 }
