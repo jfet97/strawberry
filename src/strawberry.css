@@ -910,7 +910,7 @@
   flex: 0 1 11.1111%;
 }
 
-.sb-items-1-1-auto {
+.sb-items-0-1-auto-nog {
   flex: 0 1 auto;
 }
 
@@ -981,7 +981,7 @@
   flex: 1 0 11.1111%;
 }
 
-.sb-items-1-1-auto {
+.sb-items-1-0-auto-nos {
   flex: 1 0 auto;
 }
 
@@ -1052,7 +1052,7 @@
   flex: 0 0 11.1111%;
 }
 
-.sb-items-1-1-auto {
+.sb-items-0-0-auto-nogs {
   flex: 0 0 auto;
 }
 
