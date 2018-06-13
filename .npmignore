@@ -4,3 +4,4 @@ docs/*
 sass/strawberry.css.map
 sass/strawberry.min.css.map
 sass/.sass-cache
+examples/*
