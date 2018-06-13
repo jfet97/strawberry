@@ -557,6 +557,33 @@
   order: 1000000;
 }
 
+@media only screen and (min-width: 1000px) {
+  .sb-first-item-l {
+    order: -1000000;
+  }
+
+  .sb-last-item-l {
+    order: 1000000;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+  .sb-first-item-m {
+    order: -1000000;
+  }
+
+  .sb-last-item-m {
+    order: 1000000;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .sb-first-item-s {
+    order: -1000000;
+  }
+
+  .sb-last-item-s {
+    order: 1000000;
+  }
+}
 /* Align Self */
 .sb-as-auto {
   align-self: auto;
