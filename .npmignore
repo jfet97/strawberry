@@ -1,6 +1,6 @@
 src/strawberry.css
 img/*
 docs/*
-sass/strawberry.css.map
-sass/strawberry.min.css.map
+dist/strawberry.min.css.map
+src/strawberry.css.map
 sass/.sass-cache

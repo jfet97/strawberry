@@ -1,4 +1,4 @@
-@import ../../data/fractions   
+@import ../../data/fractions
 @import ../../mixins/flex-mixin
 
 
@@ -20,7 +20,9 @@
     .sb-items-#{$name} > *
         +flex(1, 1, #{$value * 1%})
 
-.sb-items-1-1-auto
+.sb-items-1-1-0 > *
+    +flex(1, 1, 0)
+.sb-items-1-1-auto > *
     +flex(1, 1, auto)
 
 /* 
@@ -35,8 +37,10 @@
     .sb-items-#{$name}-nog > *
         +flex(0, 1, #{$value * 1%})
 
-.sb-items-0-1-auto-nog
-    +flex(0, 1, auto)
+.sb-items-0-1-0-nog  > *
+    +flex(0, 1, 0)
+.sb-items-0-1-auto-nog > *
+    +flex(0, 1, auto) 
 
 /* 
     *
@@ -50,7 +54,9 @@
     .sb-items-#{$name}-nos > *
         +flex(1, 0, #{$value * 1%})
 
-.sb-items-1-0-auto-nos
+.sb-items-1-0-0-nos  > *
+    +flex(1, 0, 0)
+.sb-items-1-0-auto-nos  > *
     +flex(1, 0, auto)
 
 /* 
@@ -66,5 +72,84 @@
         +flex(0, 0, #{$value * 1%})
 
 
-.sb-items-0-0-auto-nogs
+.sb-items-0-0-0-nogs > *
+    +flex(0, 0, 0)
+.sb-items-0-0-auto-nogs > *
     +flex(0, 0, auto)
+
+
+
+/* 
+    *
+    * Responsive is the way */
+@each $media, $query in (l: "only screen and (min-width:992px)", m: "only screen and (min-width:600px) and (max-width:992px)", s: "only screen and (max-width:600px)")
+    @media #{$query} 
+
+        /* 
+            *
+            *
+            * Flex Grow 1 Flex Shrink 1 */
+        @for $i from 10 through 1 
+            .sb-items-#{$i * 10}-#{$media} > *
+                +flex(1, 1, #{$i * 10%})
+
+        @each $name, $value in $fractions-map
+            .sb-items-#{$name}-#{$media} > *
+                +flex(1, 1, #{$value * 1%})
+
+        .sb-items-1-1-0-#{$media} > *
+            +flex(1, 1, 0)
+        .sb-items-1-1-auto-#{$media} > *
+            +flex(1, 1, auto)
+
+        /* 
+            *
+            *
+            * Flex Grow 0 Flex Shrink 1 */
+        @for $i from 10 through 1 
+            .sb-items-#{$i * 10}-nog-#{$media} > *
+                +flex(0, 1, #{$i * 10%})
+
+        @each $name, $value in $fractions-map
+            .sb-items-#{$name}-nog-#{$media} > *
+                +flex(0, 1, #{$value * 1%})
+
+        .sb-items-0-1-0-nog-#{$media} > *
+            +flex(0, 1, 0)
+        .sb-items-0-1-auto-nog-#{$media} > *
+            +flex(0, 1, auto)
+
+        /* 
+            *
+            *
+            * Flex Grow 1 Flex Shrink 0 */
+        @for $i from 10 through 1 
+            .sb-items-#{$i * 10}-nos-#{$media} > *
+                +flex(1, 0, #{$i * 10%})
+
+        @each $name, $value in $fractions-map
+            .sb-items-#{$name}-nos-#{$media} > *
+                +flex(1, 0, #{$value * 1%})
+
+        .sb-items-1-0-0-nos-#{$media} > *
+            +flex(1, 0, 0)
+        .sb-items-1-0-auto-nos-#{$media} > *
+            +flex(1, 0, auto)
+
+        /* 
+            *
+            *
+            * Flex Grow 0 Flex Shrink 0 */
+        @for $i from 10 through 1 
+            .sb-items-#{$i * 10}-nogs-#{$media} > *
+                +flex(0, 0, #{$i * 10%})
+
+        @each $name, $value in $fractions-map
+            .sb-items-#{$name}-nogs-#{$media} > *
+                +flex(0, 0, #{$value * 1%})
+
+
+        .sb-items-0-0-0-nogs-#{$media} > *
+            +flex(0, 0, 0)
+        .sb-items-0-0-auto-nogs-#{$media} > *
+            +flex(0, 0, auto)
