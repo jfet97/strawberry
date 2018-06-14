@@ -8,6 +8,7 @@ body {
 
 .wrapper {
   min-height: 100vh;
+  padding-top: 30px;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -15,7 +16,7 @@ body {
 img {
   max-width:100%;
   display: block;
-  margin: 30px auto;
+  margin-bottom: 30px;
 }
 
 .arrow {
