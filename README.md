@@ -1,8 +1,8 @@
 <p align="center"><img alt="strawberry-css logo" src="img/logo-strawberry.png" width="600px"></p>
 <br><br>
 
-
-# Strawberry CSS [![NPM version](https://img.shields.io/npm/v/strawberry-css.svg)](https://www.npmjs.com/package/strawberry-css) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jfet97/strawberry/blob/master/LICENSE)
+[![NPM version](https://img.shields.io/npm/v/strawberry-css.svg)](https://www.npmjs.com/package/strawberry-css) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jfet97/strawberry-css/blob/master/LICENSE) ![](https://img.shields.io/npm/dt/strawberry-css.svg) ![](https://img.shields.io/badge/dependencies-no%20dependencies-%231e88e5%20.svg)
+# Strawberry CSS
 ![](https://img.shields.io/github/stars/jfet97/strawberry.svg?style=social&label=Star)
 
 
